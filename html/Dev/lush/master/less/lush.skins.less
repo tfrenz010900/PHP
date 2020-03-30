@@ -1,0 +1,224 @@
+//
+// Lush Content Slider - LESS Skin Stylesheet
+// ======================================================= 
+
+// mixins 
+@import "dss.less";
+
+
+/* ================================
+ * Skin Dark
+ * ================================*/
+
+.lush-slider.dark,   /* deprecated */
+.lush-skin-dark      /* use this */
+{
+  border: none;
+  background-color: #202020;
+  .box-shadow(0 1px 2px #202020);
+
+  .lush-nav {
+    a {
+      background-image: url('../img/skin/lush-skin-dark.png');
+    }
+  }
+  
+}
+
+
+/* ================================
+ * Skin Silver
+ * ================================*/
+
+.lush-slider.silver,  /* deprecated */
+.lush-skin-silver     /* use this */
+{
+  border: none;
+  .gradient-h (#cccbc7, lighten(#cccbc7, 10%));
+  .box-shadow(0 1px 2px #202020);
+  
+  .lush-nav {
+    a {
+      background-image: url('../img/skin/lush-skin-silver.png');
+    }
+  }
+}
+
+
+/* ================================
+ * Skin Flat
+ * ================================*/
+
+.lush-slider.flat,  /* deprecated */
+.lush-skin-flat     /* use this */
+{
+  #classic-skin;
+
+  .lush-nav {
+
+    a {
+      background-image: url('../img/skin/lush-skin-flat.png');
+    }
+  }
+ 
+}
+
+
+// ================================
+// Classic position 
+// ================================
+
+#classic-skin() {
+  padding: 0;
+  .border-radius(0);
+  
+  .lush-nav {
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 50%;
+    bottom: auto;
+    text-align: center;
+    /* required to align middle */
+    line-height: 1px;
+    *height: 50%;
+    *top: auto;
+    *bottom: 0;
+
+    a {
+      position: absolute;
+    }
+  }
+  a.lush-page {
+    bottom: 0;
+    position: relative;
+    vertical-align: bottom;
+    *display: inline;
+  }
+  
+  .lush-prev,
+  .lush-next {
+    left: 0;
+    top: 0;
+    margin-top: -20px;
+  }
+  .lush-next {
+    left: auto;
+    right: 0;
+  } 
+}
+
+// ================================
+// Skin Mini Position
+// ================================
+
+#mini-skin() {
+  
+  .lush-nav { 
+
+    bottom: 10px; 
+
+    a {
+      width: 20px; 
+      height: 21px;
+    }
+  }
+  
+  .lush-page {
+    background-position: -20px 0;
+    &:hover,
+    &.current {
+      background-position: -20px -21px;
+    }
+  } 
+  
+  .lush-prev {
+    background-position: 0 0;
+    &:hover {
+      background-position: 0 -21px;
+    }
+  }
+  .lush-next {
+    background-position: -40px 0;
+    &:hover {
+      background-position: -40px -21px;
+    }
+  }
+}
+
+/* ================================
+ * Skin Mini White default
+ * ================================*/
+ 
+.lush-slider.mini-white,  /* deprecated */
+.lush-skin-default-mini   /* use this */
+{
+  #mini-skin;
+
+  padding: 15px;
+  border: 1px solid #ddd;
+  .border-radius(10px);
+  background-color: #fff;
+  //.box-shadow(0 1px 2px #ADADAD);
+  
+  .lush-nav {
+    a {
+      background-image: url('../img/skin/lush-mini-skin.png');
+    }
+  }
+  
+}
+
+/* ================================
+ * Skin Mini Dark
+ * ================================*/
+
+.lush-slider.mini-dark, /* deprecated */
+.lush-skin-dark-mini    /* use this */
+{
+  #mini-skin;
+  border: none;
+  background-color: #202020;
+  .box-shadow(0 1px 2px #202020);
+
+  .lush-nav {
+    a {
+      background-image: url('../img/skin/lush-mini-skin-dark.png');
+    }
+  }
+}
+
+
+/* ================================
+ * Skin Mini Silver
+ * ================================*/
+
+.lush-slider.mini-silver, /* deprecated */
+.lush-skin-silver-mini    /* use this */
+{
+  #mini-skin;
+  border: none;
+  .gradient-h (#cccbc7, lighten(#cccbc7, 10%));
+  .box-shadow(0 1px 2px #202020);
+  
+  .lush-nav {
+    a {
+      background-image: url('../img/skin/lush-mini-skin-silver.png');
+    }
+  }
+}
+
+/* ================================
+ * NO Skin Borders
+ * ================================*/
+
+.lush-slider.no-skin,    /* deprecated */
+.lush-slider.borderless, /* deprecated */
+.lush-skin-borderless    /* use this */
+{
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  .border-radius(0);
+}
+

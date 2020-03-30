@@ -1,0 +1,38 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190010-423"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100096"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190010",
+"SessionNumber":"SM190010-423",
+"AccountID":"A100096",
+"Distance":"60",
+"Target Type":"Select Development",
+"PitchNumber":1,
+"X":"V",
+"Y":8,
+"Date":"2019-08-06T17:25:20",
+"Time":"2019-08-06T17:25:20",
+"MPH":"47.0",
+"MPH Plate Speed":"47.0",
+"MPH Release":"50.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"V",
+"Y":8,
+"EI Row ID":"SM190010-423-1",
+"EI Row Count":"1"
+}
+]
+}

@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lush &mdash; Documentation</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/help.style.css" />
+    <link rel="stylesheet" href="js/google-code-prettify/prettify.css" />
+  </head>
+  <body>
+    <div class="container_12">
+
+      <div id="sidebar" class="grid_3">
+        <div id="header">
+          <h2>Lush</h2>
+        </div>
+        <div id="menu">
+          <ul>
+            <li>
+              <a href="#start">Start</a>
+            </li>
+            <li>
+              <a href="#tips">Tips</a>
+            </li>
+            <li>
+              <a href="#install">Installation</a>
+            </li>
+            <li>
+              <a href="#usage">Usage</a>
+            </li>
+            <li>
+              <a href="#syntax">Syntax</a>
+            </li>
+            <li>
+              <a href="#properties">Properties</a>
+            </li>
+            <li>
+              <a href="#animations">Animations</a>
+            </li>
+            <li>
+              <a href="#classes">Classes</a>
+            </li>
+            <li>
+              <a href="#customize">Customize</a>
+            </li>
+            <li>
+              <a href="#files">Files</a>
+            </li>
+            <li>
+              <a href="#api">API</a>
+            </li>
+            <li>
+              <a href="#final">Final notes</a>
+            </li>
+          </ul>
+        </div>
+        <div id="copyr">
+          <p>
+            Copyright © 2014 Geedmo.
+          </p>
+        </div>
+      </div>
+
+      <div id="content" class="grid_9">
+        <div id="start">
+          <p>
+            <h2 id="sec-a" class="section"> Start </h2>
+            Created: 27/01/2013
+            <br/>
+            Updated: 29/02/2016
+            <br/>
+            Version: 1.7.3
+            <br />
+            By: <a href="http://twitter.com/geedmo">@geedmo</a>
+          </p>
+
+          <br />
+          <p>
+            Thank you for purchasing this item. If you have any questions that are beyond the scope of this help file,
+            <br />
+            please feel free to email via my user page contact form <a href="http://codecanyon.net/user/geedmo#contact">here</a>.
+            <br />
+            <br />
+            Thanks so much!
+          </p>
+          <br />
+        </div>
+
+        <!-- DOCUMENTATION CONTENT GOES HERE -->
+
+        <h2 id="tips" class="section">Tips</h2>
+        <p>Some tips to know and that will help you</p>
+
+        <h4>jQuery</h4>
+        <p>jQuery is a Javascript library to write less and do more. Since this item is a <i>jQuery plugin</i>, you need to include jQuery in your project and it must be included before all other jQuery script and plugins.</p>
+
+        <h4>Use demo templates</h4>
+        <p>Do not start from scratch, use an existing page from the example to learn and modify how it works with real markup.</p>
+
+        <h4>Developer Tools</h4>
+        <p>Recommended: <a href="https://addons.mozilla.org/es/firefox/addon/firebug/">Firebug</a> or Chrome DevTools. Using one of those tools will help you to save time analizing the markup and finding elements structure, like classes, id or tags. They can also show you <b>a console with your pages error</b> like wrong paths or Javascript errors.</p>
+
+        <h4>Error Messages</h4>
+        <p>Sometimes, due to a particular system or server configuration, you may get strange error messages. If so, try first to Google it for a quick solution, sometimes there is somebody with similar problem and the solution.</p>
+
+        <h2 id="install" class="section">Installation</h2>
+        <p>
+          Get started with Lush this simple steps:
+        </p>
+        <br />
+        <ol>
+          <li>
+            <h3>Copy Files</h3>
+            Open the downloaded package and extract the folder <code>lush</code> into your project root folder
+          </li>
+          <li>
+            <h3>Link CSS</h3>
+            Add these items to the<code>&lt;head&gt;</code>of your document. This will link the Lush core CSS files into your webpage.
+            <br />
+            <br />
+            <pre class="prettyprint linenums">
+&lt;link href="lush/css/lush.animations.min.css" rel="stylesheet" /&gt;
+&lt;link href="lush/css/lush.min.css" rel="stylesheet" /&gt;
+</pre>
+            <div class="alert">Assuming that you have all your html files in your project root folder. If not your case, make sure to fix the path.</div>
+          </li>
+          <li>
+            <h3>Link JS</h3>
+            <p>
+              Add this lines right before <code>&lt;/body&gt;</code>. This will link jQuery, Easing functions and the plugin core JavaScript into your webpage.
+            </p>
+            <br />
+            <pre class="prettyprint linenums">
+&lt;script src="lush/js/jquery.js"&gt;&lt;/script&gt;
+&lt;script src="lush/js/jquery.easing.1.3.min.js"&gt;&lt;/script&gt;
+&lt;script src="lush/js/jquery.lush.min.js">&lt;/script&gt;
+</pre>
+            <div class="alert">Assuming that you have all your html files in your project root folder. If not your case, make sure to fix the path.</div>
+          </li>
+          <li>
+            <h3>Done</h3>
+            <p>Now you are ready to start using Lush. Go to section <b>Usage</b> to learn how to add markup according to your needs.</p>
+          </li>
+        </ol>
+        <br />
+        <h2 id="usage" class="section"> Usage</h2>
+        <br>
+        <br>
+        <h3>Basic</h3>
+        <p>This mode allows to animate components by separate in a unique container. This mode is usefull for simple content, just like some paragraph and descriptive images. This mode doesn't use the slider functionality. </p>
+        <h4>Markup</h4>
+            <pre class="prettyprint linenums">
+&lt;div class="lush"&gt;
+  &lt;p data-slide-in="syntax for animation in"
+     data-slide-out="syntax for animation out"
+     style=""&gt;
+        Some text here to be animated
+  &lt;/p&gt;
+&lt;/div&gt;
+</pre>
+        <p>The data attibutes are described in section <b>syntax</b>. The style attribute is needed to set the initial position of the element, where it will be in inside the <code>lush container</code> once the animation has been completed.</p>
+        <h4>Invocation</h4>
+        <p>Add this line in the footer of your webpage</p>
+            <pre class="prettyprint linenums">
+&lt;script&gt;
+  $(document).ready(function(){
+    $('.lush').lush();
+  });
+&lt;/script&gt;
+</pre>
+        <p>This code will invoke the plugin with default properties. For a list of plugin properties see section <b>Properties</b>. Note that the class <code>.lush</code> was added to reference the plugin but is not necessary, the plugin will add it if not present. You can use and id instead of a class to invoke the plugin. The example use a paragraph tag but you can animate any element.</p>
+
+        <h3>Slider</h3>
+        <p>This mode allows to slide containers with components continuosly.</p>
+        <h4>Markup</h4>
+            <pre class="prettyprint linenums">
+&lt;div class="lush-slider"&gt;
+  &lt;div class="lush"&gt;
+    &lt;p data-slide-in="syntax for animation in"
+       data-slide-out="syntax for animation out"
+       style=""&gt;
+          Some text here to be animated
+    &lt;/p&gt;
+  &lt;div/&gt;
+  &lt;div class="lush"&gt;
+      &lt;img ...&gt;
+  &lt;div/&gt;
+&lt;/div&gt;
+</pre>
+        <p>The class <code>.lush-slider</code> is required for this mode. You can invoke the plugin with an id instead of a class, but the class must be there.</p>
+        <h4>Invocation</h4>
+        <p>Add this line in the footer of your webpage</p>
+            <pre class="prettyprint linenums">
+&lt;script&gt;
+  $(document).ready(function(){
+    $('.lush-slider').lush();
+  });
+&lt;/script&gt;
+</pre>
+        <br>
+        <h4>Fullwidth Slider</h4>
+        <p>Since Lush Slider will expand automatically to the width of the element that contains the markup, you can create a fullwidth slider just making the slider expand to the page width.</p>
+        <p>In this case, and because of the responsive nature of the slider, if you try to expand a slider with a <b>baseWidth</b> less than your page width, all elements will be resized automatically. <br>
+        For instance, if the slider has a <b>baseWidth</b> of 1000px and your page is 2000px, all element will be resized by ratio of 2, and same occurs for lower resolutions. To avoid this, just create your slider using as <b>baseWidth</b> the max width that you expect that your website could have.</p>
+
+
+        <h3>Carousel</h3>
+        <p>Carousel mode uses the same markup as the Slider Mode but the only difference is that in this mode when the plugin detects that the slider is animated in a direction different from the default or given direction, the animation will be done in reverse.</p>
+        <h4>Invocation</h4>
+            <pre class="prettyprint linenums">
+&lt;script&gt;
+  $(document).ready(function(){
+    $('.lush-slider').lush({
+      slider {
+        carousel: true
+      }
+    });
+  });
+&lt;/script&gt;
+</pre>
+        <p>This mode can be combined with the <code>manual</code> so option the slider can be controlled manually instead of slide automatically.</p>
+
+
+        <h3>Iframe</h3>
+        <p>This mode is intented to use the slider as a page slider, where each slide will be a page within an iframe that is animated. </p>
+        <h4>Markup</h4>
+            <pre class="prettyprint linenums">
+&lt;div class="lush-slider"&gt;
+  &lt;div class="lush"&gt;
+    &lt;iframe src="http://" width="NNN" height="NNN"
+       data-slide-in="syntax for animation in"
+       data-slide-out="syntax for animation out"
+       style=""&gt;&lt;/p&gt;
+  &lt;div/&gt;
+  &lt;div class="lush"&gt;
+      &lt;iframe ...&gt;
+  &lt;div/&gt;
+&lt;/div&gt;
+</pre>
+        <p>Note that the markup is the same but the elements to be animated are iframe with the page to be loaded. In this case the plugin will preload the page, so the animation will begin when the first iframe has the page completly loaded.</p>
+        <h4>Invocation</h4>
+
+            <pre class="prettyprint linenums">
+&lt;script&gt;
+  $(document).ready(function(){
+    $('.lush-slider').lush({
+      manual: true
+    });
+  });
+&lt;/script&gt;
+</pre>
+        <p>The property <code>manual: true</code> tells the plugin to animate the element in screen and stop.</p>
+
+        <h3>Flexslider</h3>
+        <p>This mode is intended to use with the FlexSlider plugin, that can be downloaded from <a href="http://www.woothemes.com/flexslider/">here</a>. If you are using Flexslider, you probably noticed that the caption are encouraged along with the images, but you can encourage them separately.</p>
+        <p>Easily you can add elements to be used as caption and set to them the animation syntax reusing the Flexslider markup.</p>
+        <h4>Markup</h4>
+            <pre class="prettyprint linenums">
+&lt;div class="flexslider"&gt;
+  &lt;ul class="slides"&gt;
+  &lt;li&gt;
+    &lt;img src="..." class="ignore" /&gt;
+    &lt;p data-slide-in="syntax for animation in"
+       data-slide-out="syntax for animation out"
+       style=""&gt;&lt;/p&gt;
+  &lt;li/&gt;
+  &lt;li&gt;
+      &lt;img src="..." class="ignore" /&gt;
+      &lt;p ...&gt;
+  &lt;li/&gt;
+&lt;/div&gt;
+</pre>
+        <p>As mentioned above, the markup is the recommended by Flexslider, but with a few additions.</p>
+        <p><b>First,</b> the class <code>flexslider</code> is required to activate this mode.</p>
+        <p><b>Second</b>, the main slider image must have a class <code>ignore</code>. This class will tell the plugin that the element should not been animated.</p>
+        <p>Note that the animated elements are in same level as the main image, so there is no need to set a caption container.</p>
+        <p><span class="important">important</span> Since the slider in this mode is handled and syncronized by Lush Slider, <b>Not</b> all Flexslider options are avaible.</p>
+        <br />
+        <h4>Invocation</h4>
+        <p>You can use all Flexslider options with the plugin but the follows are recommended for better synchronization:</p>
+            <pre class="prettyprint linenums">
+&lt;script&gt;
+  $(document).ready(function(){
+    $('.flexslider').lush({
+      flexslider : {
+                    animation : 'slide' // or 'fade'
+                  , slideshow: false  // Lush controls the slide timing
+                  , useCSS: false     // Avoid conflict with CSS transitions
+                  }
+    });
+  });
+&lt;/script&gt;
+</pre>
+        <p>Basically, we hook up the plugin passing to it the Flexslider options. You dont need to invoke Flexslider in the container, Lush will begin automatically to synchronize with Flexslider. </p>
+        <p>Use the property <code>useCSS: false</code> if you see that animations jump abruptly.</p>
+        <p>The property <code>slideshow: false</code> avoids Flexslider to slide automatically. If yu are using it, make sure you have setted the right slide delay, otherwise element animations could be aborted before end.</p>
+        <div class="alert">Flexslider Mode supports all elements except videos.</div>
+
+        <h3>External Controls</h3>
+        <p>Lush Slider can be manipulated with any element that you want.</p>
+        <p>Add class <code>lush-external</code> to each element so the plugin can detect the external control.</p>
+        <p>Add an attribute <code>data-slideto</code> to each control with the slide number to move</p>
+        <p>For example, if we have a slider with 3 slides, we can add 3 links where each one encourage the slider to a specific slide.</p>
+            <pre class="prettyprint linenums">
+&lt;a href="#" class="lush-external" data-slideto="1"&gt; Go Slide 1 &lt;/a&gt;
+&lt;a href="#" class="lush-external" data-slideto="2"&gt; Go Slide 2 &lt;/a&gt;
+&lt;a href="#" class="lush-external" data-slideto="3"&gt; Go Slide 3 &lt;/a&gt;
+</pre>
+        <p>When click on some link, the slide will advaced automatically to the slide indicated by the data attribute.</p>
+        <p class="alert">You can use images, buttons, icons and any clickable element.</p>
+
+
+        <h3>Global Animations</h3>
+        <p>Since version 1.5 Lush Slider allows to use Global animations. This animations area added directly to the slide container and all children elements will be animated using that animation. Animations for each element will have priority over the global animation.</p>
+        <h4>Markup</h4>
+            <pre class="prettyprint linenums">
+&lt;div class="lush-slider"&gt;
+  &lt;div class="lush" data-slide-in="syntax for animation in"
+       data-slide-out="syntax for animation out"&gt;
+    &lt;p&gt; ... &lt;/p&gt;
+    &lt;img ...&gt;
+    &lt;img ...&gt;
+  &lt;div/&gt;
+  &lt;div class="lush" data-slide-in="syntax for animation in"
+       data-slide-out="syntax for animation out"&gt;&gt;
+      &lt;img ...&gt;
+      &lt;img ...&gt;
+      &lt;img ...&gt;
+  &lt;div/&gt;
+&lt;/div&gt;
+</pre>
+        <p>Using Global animations, all animatable elements will be animated using the given animation. With this you can save precious time if some or all of your elements are animated in the same way.</p>
+
+        <h3>Adding Videos</h3>
+        <p>Lush Slider has a special support for embedded videos from the most popular websites <b>Youtube</b> and <b>Vimeo</b>
+          <br>
+          To add a video you just to get the <b>iframe embed markup</b> from its website, paste into the Lush slider markup as any other element and done. Lush will do the rest to show a nice preview picture.
+        </p>
+        <h4>Markup Example of Videos</h4>
+<pre class="prettyprint linenums">
+&lt;div class="lush-slider"&gt;
+  &lt;div class="lush"&gt;
+    &lt;iframe
+            src="http://www.youtube.com/embed/1XZGulDxz9o?showinfo=0&controls=0"
+            width="400" height="250" allowfullscreen ...
+            data-slide-in="syntax for animation in"
+            data-slide-out="syntax for animation out"&gt;&lt;/iframe&gt;
+  &lt;div/&gt;
+  &lt;div class="lush"&gt;
+    &lt;iframe
+            src="http://player.vimeo.com/video/1084537"
+            width="400" height="250" allowfullscreen ...
+            data-slide-in="syntax for animation in"
+            data-slide-out="syntax for animation out"&gt;&lt;/iframe&gt;
+  &lt;div/&gt;
+&lt;/div&gt;
+</pre>
+        <p>To change some options like video autoplay and slider autopause you can use the invocation properties</p>
+<pre class="prettyprint linenums">
+&lt;script&gt;
+  $(document).ready(function(){
+    $('.lush-slider').lush({
+      slider: {
+          pauseOnVideo:         true     // pause slider when playing a video
+        , videoAutoplay:        false    // allows to play videos automatically
+        , videoAutoresume:      true     // resume slideshow after video playback ends
+      }
+    });
+  });
+&lt;/script&gt;
+</pre>
+
+        <div class="alert">Videos not supported on Flexslider Mode</div>
+        <h4>Youtube API v3</h4>
+        <p>Since the last update using the Youtube API v3, a new attribute is needed in the markup of the slider</p>
+<pre class="prettyprint linenums">
+&lt;div class="lush-slider ..." data-slider-yt-server-api-url="http://example/yt-video.php"&gt;
+</pre>
+        <p>Above URL must be placed in your server and will repond with video information that is requested</p>
+        <p>If you look at the PHP script <code>master/php/yt-video.php</code> you will see that the script perform a request to the Youtube
+        API and return some data used by the slider. This is done this way because since ApiV3 Youtube requires an API KEY
+        to use the service, and <u>since this key must be private, is a good practice to keep it in a server side script</u>.</p>
+        <p>Go <a href="https://developers.google.com/youtube/v3/getting-started">here</a> to learn how to get your API Key.</p>
+        <p>The script provided should be place in an accesible folder in your server and you have to add the URL into the slider setting attribute as shown above.</p>
+        <p>The minumun JSON structure required for the slider to work with youtube videos</p>
+<pre class="prettyprint linenums">
+ {
+     "duraction_sec": "Video duration in seconds"
+     "thumbnail": {
+         "maxresDefault": "Full URL to the maxresDefault video preview"
+     }
+ }
+</pre>
+        <p>If you change or customize the script you need to make sure at least this information is provided.</p>
+
+        <!-- SECTION -->
+        <h2 id="syntax" class="section">Syntax</h2>
+        <p>Lush was designed having in mind two principles:</p>
+        <ul>
+          <li><b>Usability</b>: Lush syntax is semantics, which means that you can describe animation events in the same way you would think it.</li>
+          <li><b>Maintainable</b>: The animations are based on CSS classes, which makes easier to modify, update and expand the pool of animations.</li>
+        </ul>
+        <br />
+        <p>This section is an introduction guide for the animation syntax.</p>
+        <br />
+
+        <h3>Input syntax</h3>
+        <p>Animation in syntax must be introduced into the attribute <code>data-slide-in</code></p>
+        <br />
+        <code><b>[at|plus]</b> {DELAY TIME} <b>from</b> {DIRECTION} <b>use</b> {EASING} <b>during</b> {DURATION TIME}</code>
+        <br />
+        <br />
+        <h3>Output syntax</h3>
+        <p>Animation in syntax must be introduced into the attribute <code>data-slide-out</code></p>
+        <br />
+        <code><b>[at|plus]</b> {DELAY TIME} <b>to</b> {DIRECTION} <b>use</b> {EASING} <b>during</b> {DURATION TIME} <b>[force]</b></code>
+        <br />
+        <br />
+        <h3>Description</h3>
+        <p>The syntax described above has the next interpretation:</p>
+        <p>In black are the keywords, they are case sensitive and optionals. If you avoid some, the plugin will use a default value.</p>
+        <p>The sign <code>|</code> represents "or", which means if you use the keyword <code>at</code> you can't use <code>plus</code>, and viceversa.</p>
+        <p>The unique difference between input and output syntax are the keywords <code>from</code> and <code>to</code></p>
+        <p>Output syntax can be omitted, so the plugin will animate the entry of the item and hold its final position without leaving the scene.</p>
+        <p>Inpput syntax can be omitted but the plugin will animate the elements using the default values for each keyword</p>
+        <p>Between brackets the are the values (parameters) you must set for the animation, below describe how to fill this values.</p>
+        <h4>Keywords</h4>
+
+       <table>
+          <thead>
+            <tr>
+              <td class="col-name"> Name </td>
+              <td class="col-desc"> Description </td>
+              <td class="col-default"> Default </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>at</td>
+              <td>indicates the time in millisecond that the animation should wait before start. </td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>plus</td>
+              <td>indicates the time in millisecond that the animation should wait before start. In that case, the time will be calculated adding the value given to the wait time of the precedent animation. If not precedent, it will consider 0.</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>from</td>
+              <td>indicates the animation to be used when the element is ready to step in. See section <b>Animations</b> for a list of animations </td>
+              <td>'left'</td>
+            </tr>
+            <tr>
+              <td>to</td>
+              <td>indicates the animation to be used when the element is ready to step out. See section <b>Animations</b> for a list of animations</td>
+              <td>'right'</td>
+            </tr>
+            <tr>
+              <td>use</td>
+              <td>This is the easing function. The value should be case sensitive. Below you can see a list of available values. More information on easing functions, <a href="http://easings.net/">here</a></td>
+              <td>'swing'</td>
+            </tr>
+            <tr>
+              <td>during</td>
+              <td>sets the animation duration time. The time the animation will take to move from start to end.</td>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <td>force</td>
+              <td>This options works for animation out only. It forces the slider to make a full animation (in/out) of the element. This option is useful when two elements, in different times, are in the same position, so you will need to force the animation, even if the user pauses the slider. The yellow text in the demo page uses this feature.<br/> This options is activated only adding the word to the timeline, there's no need to add a value for it.</td>
+              <td>false</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Examples</h3>
+        <h4>This example show how to animate a paragraph and the idea involved</h4>
+        <br />
+        <p><i>Wait, at two seconds, start animation from left and use linear easing during one second.</i></p>
+        <p><i>Then, wait, at three seconds, continue animation to right and use swing easing during one second.</i></p>
+            <pre class="prettyprint linenums">
+&lt;p data-slide-in="at 2000 from left use linear during 1000"
+   data-slide-out="at 3000 to right use swing during 1000"
+   style="..."&gt;Some text...&lt;/p&gt;
+</pre>
+        <br />
+        <h4>Another example using <code>plus</code> and without output animation.</h4>
+        <br />
+            <pre class="prettyprint linenums">
+&lt;p data-slide-in="at 2000 from left use linear during 1000"
+   style="..."&gt;Some text...&lt;/p&gt;
+&lt;p data-slide-in="plus 200 from left use linear during 1000"
+   style="..."&gt;Some text...&lt;/p&gt;
+</pre>
+        <p>The first paragraph will start at 2000 milliseconds (2 seconds exactly).</p>
+        <p>The second paragraph will start at 2200 milliseconds. 2000 milliseconds from precendent plus 200 millisecond from actual. </p>
+        <br />
+        <h4>Using container elements, like an image link</h4>
+        <br />
+            <pre class="prettyprint linenums">
+&lt;a href="..."
+   data-slide-in="at 2000 from left use linear during 1000"
+   style="..."&gt;
+  &lt;img src="..." /&gt;
+&lt;/a&gt;
+
+</pre>
+        <br />
+        <p>The container element will receive the animation and will animate all its content</p>
+
+        <h2 id="properties" class="section">Properties</h2>
+
+        <h4> Global properties </h4>
+        <p>This properties have effects in all Modes.</p>
+        <br />
+        <table>
+          <thead>
+            <tr>
+              <td class="col-name"> Property name </td>
+              <td class="col-desc"> Description </td>
+              <td class="col-default"> Default </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>autostart</td>
+              <td>Start animating elements automatically</td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>baseWidth</td>
+              <td>Base width in pixels used for the slider to determine the size on different screen resolutions.</td>
+              <td>1140</td>
+            </tr>
+            <tr>
+              <td>baseHeight</td>
+              <td>Base height in pixels used for the slider to determine the size on different screen resolutions.</td>
+              <td>450</td>
+            </tr>
+            <tr>
+              <td>direction</td>
+              <td>Default direction when sliding automatically. Allowed <code>'next'</code> <code>'prev'</code></td>
+              <td>'next'</td>
+            </tr>
+            <tr>
+              <td>manual</td>
+              <td>If <code>true</code> the slider will animate input animations and then will stop. Use it if to give the user to control the slider.</td>
+              <td>false</td>
+            </tr>
+            <tr>
+              <td>slider</td>
+              <td>This property is an objet that receive the Slider Mode options. See below for a list of allowed properties.</td>
+              <td>{ .. }</td>
+            </tr>
+            <tr>
+              <td>flexslider</td>
+              <td>Receive the Flexslider options. Used when Flexslider Mode detected.</td>
+              <td>false</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <h4>Slider Properties</h4>
+        <p>This properties have effects only on Slider Mode. </p>
+        <br />
+        <table>
+          <thead>
+            <tr>
+              <td class="col-name"> Property name </td>
+              <td class="col-desc"> Description </td>
+              <td class="col-default"> Default </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>pauseOnHover</td>
+              <td>Determines if the slider must pause when the mouse hover</td>
+              <td>false</td>
+            </tr>
+            <tr>
+              <td>pauseOnVideo</td>
+              <td>Auto Pause slider on video played</td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>navigation</td>
+              <td>If false, the plugin will not create the navigation controls. Use it if you create extra navigation controls.</td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>pager</td>
+              <td>If false, the plugin will not create the pager controls. Only previous and next control will be displayed.</td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>shadow</td>
+              <td>Determines if the bottom shadow image should be showed</td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>keyboard</td>
+              <td>Enables keyboard navigation </td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>touch</td>
+              <td>Enables touch swipe gestures for navigation.</td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>responsive</td>
+              <td>Indicates if the slider should adapt to differents screen resolutions. </td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>loop</td>
+              <td>Indicates how many times the slider should loop. The slider will loop the times indicated and will stop in the first slide. 0 means infinite. </td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>carousel</td>
+              <td>Enables the carousel mode.</td>
+              <td>false</td>
+            </tr>
+            <tr>
+              <td>deadtime</td>
+              <td>A time in milliseconds before start animations out. Use it to increase the slider time.</td>
+              <td>0</td>
+            </tr>
+              <tr>
+                <td>videoAutoplay</td>
+                <td>Allows to play videos automatically</td>
+                <td>false</td>
+              </tr>
+              <tr>
+                <td>videoAutoresume</td>
+                <td>Resume slideshow after video playback ends</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>videoAutoplayDelay</td>
+                <td>A delay before send auto play to videos</td>
+                <td>500</td>
+              </tr>
+              <tr>
+                <td>videoPreviewFadeOut</td>
+                <td>fadeOut time for preview image</td>
+                <td>700</td>
+              </tr>
+              <tr>
+                <td>videoPreviewFadeIn</td>
+                <td>fadeIn time for preview image</td>
+                <td>400</td>
+              </tr>
+              <tr>
+                <td>videoTimerDelay</td>
+                <td>When video is played, increments the time to wait the video ends its playback</td>
+                <td>1000</td>
+              </tr>
+              <tr>
+                <td>lockOnManual</td>
+                <td>Disable navigation advance when animation is running on manual mode</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>startAt</td>
+                <td>Slide index to start from (zero based).</td>
+                <td>0</td>
+              </tr>
+          </tbody>
+        </table>
+
+        <h4>Options example</h4>
+        <p>Use this code to edit or remove options for your custom slider</p>
+
+            <pre class="prettyprint linenums" style="font-size: 13px;">
+&lt;script&gt;
+  $(document).ready(function(){
+    // make sure to add the correct class for the mode
+    $('slider-selector').lush({
+
+          // PLUGIN OPTIONS
+          , autostart:  true      // auto start plugin
+          , baseWidth:  1140      // orignal slide widht
+          , baseHeight: 450       // and original slide height (ratio ~2.5)
+          , direction:  'next'    // or "prev" (next==right/prev==left)
+          , manual:     false     // manual advance mode
+
+          // SLIDER OPTIONS
+          , slider : {
+                pauseOnHover:         false    // pause slider on mouse hover
+              , pauseOnVideo:         true     // pause slider on video played
+              , navigation:           true     // show navigation controls?
+              , shadow:               true     // show slider shadow element?
+              , keyboard:             true     // allow keyboard navigation?
+              , touch:                true     // allow touch gestures navigation?
+              , pager:                true     // show pager controls?
+              , responsive:           true     // enable responsive mode?
+              , loop:                 0        // how many times loop through all slides?
+              , carousel:             false    // carousel mode? inverts animations when direction changes
+              , deadtime:             0        // extra deadtime in ms between animation in/out
+              , allowOneSlide:        true     // allows to use one slide mode?
+              , videoAutoplay:        false    // allows to play videos automatically
+              , videoAutoresume:      true     // resume slideshow after video playback ends
+              , videoAutoplayDelay:   500      // a delay before send play to video
+              , videoPreviewFadeOut:  700      // fadeout time for preview image
+              , videoPreviewFadeIn:   400      // fadein time for preview image
+              , videoTimerDelay:      1000     // increments video duration
+              , lockOnManual:         true     // disable advance when animation is running on manual mode
+              , startAt:              0        // Slide index to start from (zero based).
+          }
+          // FLEXSLIDER OPTIONS (dont't it include if you dont use flexslider)
+          , flexslider: {
+              animation:    'slide'
+            , easing :      'easeInOutExpo'
+            , slideshow:    false
+            , useCSS:       false
+            , pauseOnHover: true
+            // more options <a href="http://www.woothemes.com/flexslider/" target="_blank">&gt;&gt; here &lt;&lt;</a>
+          }
+
+    });
+  });
+&lt;/script&gt;
+</pre>
+        <h4>Properties in data attributes</h4>
+        <p>Since version 1.5 Lush plugin allows to set properties directly from <code>data-</code> attributes. This simplify the mode the plugins is configured and allows to add more customization than the standard jQuery invocation. All data attriibutes must be added in the main container (with class .lush-slider) or in slide elements (with class .lush).</p>
+        <p>For example</p>
+            <pre class="prettyprint linenums">
+&lt;div class="lush-slider"
+     data-base-width="1200"
+     data-base-height="560"
+     data-slider-pause-on-hover="true">
+
+      &lt;div class="lush" data-deadtime="7000">
+          ...
+      &lt;/div>
+      &lt;div class="lush" data-deadtime="2000">
+          ...
+      &lt;/div>
+
+&lt;/div>
+</pre>
+        <p>The example indicates the plugin that the slider was built on a resolution of 1200x560px and the first slide and the automatic pauseOnHover is enbled. Also, each slide has a deadtime between animations in/out</p>
+
+        <h4>A quick reference for data-attributes</h4>
+
+        <table style="max-width: 50%;">
+          <thead>
+            <tr>
+              <td class="col-name"  style="width: 40%;"> Property </td>
+              <td class="col-desc" style="width: 40%;"> Attribute </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>autostart</p>
+                <p>baseWidth</p>
+                <p>baseHeight</p>
+                <p>direction</p>
+                <p>manual</p>
+              </td>
+              <td>
+                <p>data-autostart</p>
+                <p>data-base-width</p>
+                <p>data-base-height</p>
+                <p>data-direction</p>
+                <p>data-manual</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Slider properties</p>
+        <table style="max-width: 50%;">
+          <thead>
+            <tr>
+              <td class="col-name"  style="width: 30%;"> Property </td>
+              <td class="col-desc" style="width: 70%;"> Attribute </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>pauseOnHover</p>
+                <p>pauseOnVideo</p>
+                <p>navigation</p>
+                <p>shadow</p>
+                <p>keyboard</p>
+                <p>touch</p>
+                <p>pager</p>
+                <p>responsive</p>
+                <p>loop</p>
+                <p>carousel</p>
+                <p>deadtime</p>
+                <p>videoAutoplay</p>
+                <p>videoAutoresume</p>
+                <p>videoAutoplayDelay</p>
+                <p>videoPreviewFadeOut</p>
+                <p>videoPreviewFadeIn</p>
+                <p>videoTimerDelay</p>
+                <p>lockOnManual</p>
+                <p>startAt</p>
+              </td>
+              <td>
+                <p>data-slider-pause-on-hover</p>
+                <p>data-slider-pause-on-video</p>
+                <p>data-slider-navigation</p>
+                <p>data-slider-shadow</p>
+                <p>data-slider-keyboard</p>
+                <p>data-slider-touch</p>
+                <p>data-slider-pager</p>
+                <p>data-slider-responsive</p>
+                <p>data-slider-loop</p>
+                <p>data-slider-carousel</p>
+                <p>data-slider-deadtime</p>
+                <p>data-slider-video-autoplay</p>
+                <p>data-slider-video-autoresume</p>
+                <p>data-slider-video-autoplay-delay</p>
+                <p>data-slider-video-preview-fade-out</p>
+                <p>data-slider-video-preview-fade-in</p>
+                <p>data-slider-video-timer-delay</p>
+                <p>data-slider-lock-on-manual</p>
+                <p>data-slider-start-at</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="alert">You don't need to use this attributes. They are just to bring more flexibility and facilty when you need them.</div>
+        <h2 id="animations" class="section">Animations</h2>
+        <p>All animations are based on classes.</p>
+        <p>Below is the full list for input/output animatios include that you can use as value for the keyword <code>from</code> and <code>to</code></p>
+
+        <table style="max-width: 50%;">
+          <thead>
+            <tr>
+              <td class="col-name"  style="width: 40%;"> Animation name </td>
+              <td class="col-desc" style="width: 30%;"> Type </td>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- STANDARD -->
+            <tr>
+              <td>left</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>right</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>top</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>bottom</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>left-bottom</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>right-bottom</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>right-top</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>left-top</td>
+              <td>Standard</td>
+            </tr>
+            <tr>
+              <td>fade</td>
+              <td>Standard</td>
+            </tr>
+            <!-- ADVANCED -->
+            <tr>
+              <td>left-fade</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>right-fade</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>top-fade</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>bottom-fade</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>front</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>back</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>left-top-rotate</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>right-top-rotate</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>left-bottom-rotate</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>right-bottom-rotate</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>front-rotate</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>back-rotate</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>front-rotate2</td>
+              <td>Advanced</td>
+            </tr>
+            <tr>
+              <td>back-rotate2</td>
+              <td>Advanced</td>
+            </tr>
+            <!-- PREMIUM ANIMATIONS -->
+            <tr>
+              <td>back-left</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>back-right</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>back-bottom</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>back-top</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>front-left</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>back-right</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>front-bottom</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>front-top</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>flip</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>flip-h</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>roll-top</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>roll-bottom</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>roll-top</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>roll-right</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>roll-left</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>bounce</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>bounce-left</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>bounce-right</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>bounce-top</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>bounce-bottom</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>rotate</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>left-down-rotate</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>right-down-rotate</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>left-up-rotate</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>right-up-rotate</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>left-speed</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>right-speed</td>
+              <td>Premium</td>
+            </tr>
+            <tr>
+              <td>hinge</td>
+              <td>Premium</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <br />
+        <h4>Animation type:</h4>
+        <ul>
+          <li><b>Standard</b>: this animation type has a fallback mode, which means that will have the same behavior in old browsers.</li>
+          <li><b>Advanced</b>: this animations works in all major modern browser like Chrome, Safari, Firefox, Opera and IE10. Including android and iphone browsers.</li>
+          <li><b>Premium</b>: this animations works like advanced animations but they are more exclusive because require the most recent version released of each browser.</li>
+        </ul>
+
+        <div class="alert">Abbreviated mode for animation name is deprecated. They will be removed in next versions.</div>
+
+        <h3>Extending animations</h3>
+        <p>You just need to declare classes in the way the plugin can manipulate to control animations</p>
+        <p>There are two namespace used to determine if an animation is an input or ouput animation. This namespace are classes <code>.in</code> and <code>.out</code></p>
+        <p>To determine state of the animation, you must create a class with the animation name that will be used in the syntax as an initial state, and then a class <code>.live</code> concatenated to same name with the rules for the end state.</p>
+        <p>All premium animations use the <code>animation</code> property of CSS3. To extend it, is required to add the property <code>animation-fill-mode</code> to the class with the initial state and declare the animation keyframes in file <code>lush.animations.css</code></p>
+        <h4>With CSS</h4>
+            <pre class="prettyprint linenums">
+/* input animation */
+.in.[Your animation name] {
+  /* animation initial state */
+}
+.in.[Your animation name].live {
+  /* animation end state */
+}
+/* output animation */
+.out.[Your animation name] {
+  /* animation initial state */
+}
+.out.[Your animation name].live {
+  /* animation end state */
+}
+</pre>
+        <h4>With LESS</h4>
+            <pre class="prettyprint linenums">
+/* input animation */
+.in {
+  &.[Your animation name] {
+    /* animation initial state */
+    &.live {
+      /* animation end state */
+}}}
+/* output animations */
+.out {
+  &.[Your animation name] {
+    /* animation initial state */
+    &.live {
+      /* animation end state */
+}}}
+</pre>
+        <h4>With SASS</h4>
+            <pre class="prettyprint linenums">
+/* input animation */
+.in
+  &.[Your animation name]
+    /* animation initial state */
+    &.live
+      /* animation end state */
+
+/* output animations */
+.out
+  &.[Your animation name]
+    /* animation initial state */
+    &.live
+      /* animation end state */
+
+</pre>
+
+
+        <h2 id="classes" class="section">Classes</h2>
+        <p>Below describe a list of useful classes used by the plugin to identified elements like container, slides and navigation controls.</p>
+
+       <table >
+          <thead>
+            <tr>
+              <td class="col-name"  > Class name </td>
+              <td class="col-desc" > Description</td>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- STANDARD -->
+            <tr>
+              <td>lush-slider</td>
+              <td>The slider container</td>
+            </tr>
+            <tr>
+              <td>lush</td>
+              <td>Container with elementos to be animated</td>
+            </tr>
+            <tr>
+              <td>lush-nav</td>
+              <td>Navigation controls container.</td>
+            </tr>
+            <tr>
+              <td>lush-prev</td>
+              <td>Element to move the slider to previous slide on click</td>
+            </tr>
+            <tr>
+              <td>lush-next</td>
+              <td>Element to move the slider to next slide on click</td>
+            </tr>
+            <tr>
+              <td>lush-page</td>
+              <td>Element used for page navigation. This element allows to move directly to some slide.</td>
+            </tr>
+            <tr>
+              <td>lush-external</td>
+              <td>Element to used for external navigation.</td>
+            </tr>
+            <tr>
+              <td>lush-shadow</td>
+              <td>The shadow container. Use the shadow image as a background-image for this class.</td>
+            </tr>
+            <tr>
+              <td>lush-preloader</td>
+              <td>The preloader container. Used to show a gif spinner before the plugin has been initialized.</td>
+            </tr>
+            <tr>
+              <td>lush-video-wrapper</td>
+              <td>Used to wrap automatically any iframe that includes a Youtube or Vimeo video.</td>
+            </tr>
+            <tr>
+              <td>lush-video-preview</td>
+              <td>The image used to show a preview picture for the video.</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <h2 id="customize" class="section">Customize </h2>
+        <br/>
+        <br/>
+        <p>This section provides information about how to customize the look&amp;feel</p>
+        <br>
+        <h4> Installing Shadows</h4>
+        <br />
+        <p>Lush Slider comes with 4 differents shadows that you can use.</p>
+        <p>Each shadow has an asociated class with the same name as the file.</p>
+        <p>Available shadows classes are</p>
+        <ul>
+          <li><code>.shadow-a</code></li>
+          <li><code>.shadow-b</code></li>
+          <li><code>.shadow-c</code></li>
+          <li><code>.shadow-d</code></li>
+        </ul>
+        <br />
+        <p>Example of use</p>
+<pre class="prettyprint linenums">
+&lt;div class="lush-slider shadow-a"&gt;
+  &lt;div class="lush"&gt;
+    ...
+</pre>
+
+        <br>
+        <p>To remove completly the shadow element you can use the shadow option when invoking the plugin or the data attribute <code>data-slider-shadow="false"</code></p>
+        <br />
+        <h4> Skins</h4>
+        <br />
+        <p>Lush comes with a skin system based on CSS classes and images. </p>
+        <p>Available skins classes are</p>
+        <ul>
+          <li><code>.lush-skin-dark</code></li>
+          <li><code>.lush-skin-silver</code></li>
+          <li><code>.lush-skin-flat</code></li>
+          <li><code>.lush-skin-default-mini</code></li>
+          <li><code>.lush-skin-dark-mini</code></li>
+          <li><code>.lush-skin-silver-mini</code></li>
+        </ul>
+        <br>
+        <p>All this classes will replace the default styles.</p>
+        <div class="alert">Old skin class name are deprecated. They will be remove on next versions of Lush</div>
+        <br />
+        <p>Example of use</p>
+<p>Simple usage to change the default white skin</p>
+<pre class="prettyprint linenums">
+&lt;div class="lush-slider lush-skin-dark"&gt;
+  &lt;div class="lush"&gt;
+    ...
+</pre>
+<p>For a small version of the dark skin use</p>
+<pre class="prettyprint linenums">
+&lt;div class="lush-slider lush-skin-dark-mini"&gt;
+  &lt;div class="lush"&gt;
+    ...
+</pre>
+<p>The flat skin use the classic disposition (direction control on the sides)</p>
+<pre class="prettyprint linenums">
+&lt;div class="lush-slider lush-skin-flat"&gt;
+  &lt;div class="lush"&gt;
+    ...
+</pre>
+        <p>Remove a skin</p>
+        <p>To remove completly the skin you can use the <code>.lush-skin-borderless</code>. If you need to hide the navigation controls, you can remove it when invoking the plugin or via data attributes (<code>data-slider-navigation="false"</code>).<br />
+          If you want to add your own skin you can edit the .psd file included to add your own. </p>
+
+
+        <h2 id="files" class="section">File Structure</h2>
+        <br />
+
+        <ul class="file-list">
+          <li>
+            <span>lush/</span>
+            <p>This folder contains all files required to run the plugin in your live project. See next a description of its content:</p>
+            <ul>
+              <li><span>css/</span>
+                <dl>
+                  <dt><code>lush.min.css</code></dt>
+                  <dd>This file contains all styles, effects and skins required by Lush</dd>
+                  <dt><code>lush.animations.css</code></dt>
+                  <dd>Lush plugin animation keyframe stylesheet.</dd>
+                  <dt><code>lush.animations.min.css</code></dt>
+                  <dd>Lush plugin animation keyframe stylesheet minified.</dd>
+                </dl>
+              </li>
+              <li><span>js/</span>
+                <dl>
+                  <dt><code>jquery.min.js</code></dt>
+                  <dd>The jQuery JavaScript library, needed for the plugin to work properly. </dd>
+                  <dt><code>jquery.lush.js</code></dt>
+                  <dd>Lush plugin main file.</dd>
+                  <dt><code>jquery.lush.min.js</code></dt>
+                  <dd>Lush plugin main file minified.</dd>
+                </dl>
+              </li>
+              <li><span>img</span>
+                <dl>
+                  <dt><code>shadow-X.png</code></dt>
+                  <dd>The differents shadow images.</dd>
+                  <dt><code>preload.gif</code></dt>
+                  <dd>The preload spinner</dd>
+                  <dt><code>icon-play-video.png</code></dt>
+                  <dd>The icon image used to identify video elements.</dd>
+                </dl>
+                <ul>
+                  <li><span>skin/</span>
+                    <p>This folder contains the skin images</p>
+                  </li>
+                </ul>
+              </li>
+              <li><span>flexslider/</span>
+                <p>This folder contains Flexslider files</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>master/</span>
+            <p>This folder contains the files for advance customization. You don't need to include this folder in your live project.</p>
+            <ul>
+              <li><span>less/</span>
+                <dl>
+                  <dt><code>lush.styles.less</code></dt>
+                  <dd>This file contains all styles required by Lush in LESS version</dd>
+                  <dt><code>lush.skins.less</code></dt>
+                  <dd>This file contains all skin classes in LESS version</dd>
+                  <dt><code>lush.effects.less</code></dt>
+                  <dd>This file contains all effect classes in LESS version</dd>
+                  <dt><code>lush.less</code></dt>
+                  <dd>Lush plugin main LESS file. Join itself all previous LESS files.</dd>
+                  <dt><code>dss.less</code></dt>
+                  <dd>Set of mixins for LESS.</dd>
+                </dl>
+              </li>
+              <li><span>skin-psd/</span>
+                <p>Here you can find the differents skin images and PSD.</p>
+              </li>
+              <li><span>unminified/</span>
+                <p>This folder contains the unminified version of plugin files (css and js).
+                  <br>
+                  <u>Please do not include unminified versions in your live project.</u>
+                </p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>demo/</span>
+            <p>This folder contains all demo files used in the demo. You can use this files to start with with the different usages, but you dont need to include this folder in your project.</p>
+          </li>
+          <li>
+            <span>documentation/</span>
+            <p>Documentation files. The same you are reading right now :)</p>
+          </li>
+        </ul>
+
+        <h2 id="api" class="section">API Reference </h2>
+        <br>
+        <br>
+        <p>This reference is included only for advanced usage of the plugin and requires a good knowledge of Javascript.
+Usually you do not need to use them but it is possible according to the particular needs of your project, so if this is your case here is what you may want to know.</p>
+        <br>
+        <h4>Hooks</h4>
+        <p>Hooks will allow to run your custom Javascript at certains moment in the plugin process. Hooks  are synchronous which means that its execution will lock the plugin until they finish.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <td class="col-name"> Hook Name </td>
+              <td class="col-desc"> Description</td>
+              <td>Context</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>onInit</td>
+              <td>Callback when the plugin has been initialized. If in SliderMode, it will fire for each container.</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>onSlide</td>
+              <td>Callback before a container is animated</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>onSlideIn</td>
+              <td>Callback before a container begin input animation</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>onSlideOut</td>
+              <td>Callback before a container begin output animation</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>onSlided</td>
+              <td>Callback before a container is completly animated.</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>onItemSlideIn</td>
+              <td>Callback for every element in the current slide when is animated into screen</td>
+              <td>Slide element</td>
+            </tr>
+            <tr>
+              <td>onItemSlideOut</td>
+              <td>Callback for every element in the current slide when is animated off screen</td>
+              <td>Slide element</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>Events</h4>
+        <p>With events you can take actions when a certain event ocurrs inside the slider. Events are asynchronouse and so they won't lock the slider</p>
+        <p>All events must be hooked before starting the slider.</p>
+        <table>
+          <thead>
+            <tr>
+              <td class="col-name"> Event name </td>
+              <td class="col-desc"> Description </td>
+              <td>Triggered By</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>lushInit</td>
+              <td>Triggers once the slider has been initialized and before to start animations.</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>slideStart</td>
+              <td>Triggers after the slider has been initialized and the before start animations.</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>slideIn</td>
+              <td>Triggers once all item in the current slide have been animated the screen</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>slideOut</td>
+              <td>Triggers once all item in the current slide have been animated off screen</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>slideEnd</td>
+              <td>Triggered when all animations are completed.</td>
+              <td>Slide container</td>
+            </tr>
+            <tr>
+              <td>sliderInit</td>
+              <td>Triggered when the slider has been initialized including all slides initialization.</td>
+              <td>Slider container</td>
+            </tr>
+            <tr>
+              <td>sliderLoop</td>
+              <td>Triggered for every loop. Which means, every time the slider completes a round.</td>
+              <td>Slider container</td>
+            </tr>
+            <tr>
+              <td>sliderLoopEnd</td>
+              <td>Triggered when a all loops end. Runs only if loop options is bigger than zero.</td>
+              <td>Slider container</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <p><span class="important">Important</span></p>
+        <p>Note the following difference for the Hook "context" and Events "triggered by"</p>
+        <p>
+          <b>Slider container</b>: the slider element. Usually with class .lush-slider
+          <br>
+          <b>Slide container</b>: a slide in the slider. An item with class .lush
+          <br>
+          <b>Slide element</b>: all elements inside a slide that are animated. This are your custom elements.
+        </p>
+
+        <p>In both (hook &amp; events) you can use the keyworks <code>this</code> as a jQuery object the reference the current element.</p>
+
+        <h4>API Commands</h4>
+        <p>With the api commands you can execute certain plugin functions directly from your code. The command is a string passed by parameter when invoking the plugin. Use them after initialize the slider.</p>
+        <table>
+          <thead>
+            <tr>
+              <td class="col-name"> Command </td>
+              <td class="col-desc"> Description </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>.lush('start')</td>
+              <td>Start the slider. Use when invoked with property autostart:false</td>
+            </tr>
+            <tr>
+              <td>.lush('prev')</td>
+              <td>Move to previous slide</td>
+            </tr>
+            <tr>
+              <td>.lush('next')</td>
+              <td>Move to next slide</td>
+            </tr>
+            <tr>
+              <td>.lush(number)</td>
+              <td>Move the N slide identified by <b>number</b>.</td>
+            </tr>
+            <tr>
+              <td>.lush('pause')</td>
+              <td>Pause the slider</td>
+            </tr>
+            <tr>
+              <td>.lush('resume')</td>
+              <td>Resume a paused slider</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="final" class="section">Final notes </h2>
+        <br/>
+        <br/>
+        <h4> Responsive</h4>
+        <br />
+        <p>
+          To work in a responsive enviroment lush slider uses a <b>baseWidth</b> and <b>baseHeight</b> properties to determine the original size of the slider. This size is the used when you build the slider from scratch. The plugin will use that properties to know the original aspect ratio of your slider so it can resize all elements correctly.</p>
+          <p>Lush works in a default mode where the slider size is <b>1140px</b> width and <b>450px</b> height. <br>
+          If your elements (image,  text, etc) doesn't fill well with the slider size (i.e. a bigger size) you could experience some alignments problems.</p>
+        <br />
+
+        <h4> Minified files</h4>
+        <br />
+        <p>
+          A minified version of a javascript or css file, is a compressed version which not include comments, whitespaces and breaklines to reduce the file size and preserve bandwidth. In terms of functionality both versions are absolutely the same. It is recommended to use the compressed version in a production environment. You can identified this minified version with the suffix
+          <code>
+            min
+          </code>
+          . If you need to customize some file, you can minify them with some of the next tools:
+        </p>
+        <br />
+        <ul>
+          <li>
+            <a href="http://refresh-sf.com/yui/">YUI</a>
+          </li>
+          <li>
+            <a href="http://closure-compiler.appspot.com/home">Closure</a>
+          </li>
+          <li>
+            <a href="http://jscompress.com/">JS Compress</a>
+          </li>
+        </ul>
+        <br />
+        <p>
+          Lush includes minified files compressed with Yui online compressor.
+        </p>
+        <br/>
+        <br />
+        <br />
+        <br />
+        <hr>
+        <br />
+        <p>
+          Once again, thank you so much for purchasing this plugin.
+          <br />
+          As I said at the beginning, I'd be glad to help you if you have any questions relating to this plugin.
+        </p>
+        <br />
+        <p class="append-bottom alt large">
+          <strong><a href="http://geedmo.com">Geedmo</a></strong>
+        </p>
+        <br />
+        <br />
+        <br />
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/google-code-prettify/prettify.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        // make code pretty
+        window.prettyPrint && prettyPrint()
+
+        $('#menu li').click(function() {
+          var $li = $(this);
+          $('html,body').animate({
+            scrollTop : $($('a', this).attr('href')).offset().top
+          }, 'slow', function() {
+            if (!$li.hasClass('active')) {
+              $li.parent().find('.active').removeClass('active');
+              $li.addClass('active');
+            }
+          });
+          return false;
+        });
+      });
+    </script>
+
+  </body>
+</html>

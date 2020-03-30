@@ -1,0 +1,37 @@
+Local Time: Tue, 22 Jan 2019 15:26:36 |** __SmMain_Ver6g-190121_htc.py-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Tue, 22 Jan 2019 21:26:36
+Play Sound Coordinates: K, 10 to P, 16
+Local Time: 15:26:36 | Check Point 1 | 
+Local Time: 15:26:36 | Check Point 2 | 
+Local Time: 15:26:36 | Check Point 3 | 
+Local Time: 15:26:36 | Check Point 4 | 
+Local Time: 15:26:36 | Check Point 5 | 
+Local Time: 15:26:36 | Check Point 6 | 
+Local Time: 15:26:36 | Check Point 7 | 
+Local: 01/22/19 15:26:36 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py', '372'] | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local Time: 15:26:36 | Check Point 8 | 
+Local: 01/22/19 15:26:36 | 0001-Main                    - | ('Linux', 'SM990666', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0001-Main                    - | () | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0001-Main                    - | uname_result(system='Linux', node='SM990666', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM990666 | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM990666] | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local Time: 15:26:36 | Check Point 9 | 
+Local Time: 15:26:36 | Check Point 10 | 
+Local: 01/22/19 15:26:36 |    0001-Main -                   - | Session Number PASSED TO PROGRAM: 372 | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 |    0001-Main -                   - | Session Number READ / id Returned: 372 / 270 | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0030-RunStandardAndPracticeSession       - | run STANDARD Session Mode with session number: [372] | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo mkdir  on: [/var/www/html/students/PitchSessionFiles/SM990666-000372-smartmitt] | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo mkdir command: [0] | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chmod 777 on: [/var/www/html/students/PitchSessionFiles/SM990666-000372-smartmitt] | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chmod 777 command: [0] | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:36 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chown pi on: [/var/www/html/students/PitchSessionFiles/SM990666-000372-smartmitt] | TZ:21600 |  GMT- 01/22/19 21:26:36
+Local: 01/22/19 15:26:37 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chOWN command: [0] | TZ:21600 |  GMT- 01/22/19 21:26:37
+Local: 01/22/19 15:26:37 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chgrp pi on: [/var/www/html/students/PitchSessionFiles/SM990666-000372-smartmitt] | TZ:21600 |  GMT- 01/22/19 21:26:37
+Local: 01/22/19 15:26:37 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chGRP command: [0] | TZ:21600 |  GMT- 01/22/19 21:26:37
+Local: 01/22/19 15:26:37 | 0030-RunStandardAndPracticeSession       - | Starting while loop for KeepProcessingPitches | TZ:21600 |  GMT- 01/22/19 21:26:37
+Local: 01/22/19 15:26:37 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Admin] | TZ:21600 |  GMT- 01/22/19 21:26:37
+Local: 01/22/19 15:41:37 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [2]  SpeedAddon = [6] | TZ:21600 |  GMT- 01/22/19 21:41:37
+Local: 01/22/19 15:41:37 | 0030-RunStandardAndPracticeSession       - | time-out occurred waiting for stop.txt or speed.txt, hard coded 10 minutes | TZ:21600 |  GMT- 01/22/19 21:41:37
+Local: 01/22/19 15:41:37 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [TimeOut] | TZ:21600 |  GMT- 01/22/19 21:41:37
+Local: 01/22/19 15:41:43 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM990666] | TZ:21600 |  GMT- 01/22/19 21:41:43
+Local: 01/22/19 15:41:43 | 0001-Main -                   - | Session Number 372 Ended with Status: TimeOut | TZ:21600 |  GMT- 01/22/19 21:41:43

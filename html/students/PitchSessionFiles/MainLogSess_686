@@ -1,0 +1,34 @@
+Local Time: Thu, 12 Mar 2020 17:04:07 |** VER-2.08-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Thu, 12 Mar 2020 22:04:07
+Play Sound Coordinates: K, 10 to P, 16
+Local Time: 17:04:07 | Check Point 1 | 
+Local Time: 17:04:07 | Check Point 2 | 
+Local Time: 17:04:07 | Check Point 3 | 
+Local Time: 17:04:07 | Check Point 4 | 
+Local Time: 17:04:07 | Check Point 5 | 
+Local Time: 17:04:07 | Check Point 6 | 
+Local Time: 17:04:07 | Check Point 7 | 
+Local: 03/12/20 17:04:07 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local: 03/12/20 17:04:07 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py', '686'] | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local Time: 17:04:07 | Check Point 8 | 
+Local: 03/12/20 17:04:07 | 0001-Main                    - | ('Linux', 'SM190031', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local: 03/12/20 17:04:07 | 0001-Main                    - | () | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local: 03/12/20 17:04:07 | 0001-Main                    - | uname_result(system='Linux', node='SM190031', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local: 03/12/20 17:04:07 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM190031 | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local: 03/12/20 17:04:07 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190031] | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local Time: 17:04:07 | Check Point 9 | 
+Local Time: 17:04:07 | Check Point 10 | 
+Local: 03/12/20 17:04:07 |    0001-Main -                   - | Session Number PASSED TO PROGRAM: 686 | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local: 03/12/20 17:04:07 |    0001-Main -                   - | Session Number READ / id Returned: 686 / 584 | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local: 03/12/20 17:04:07 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [VER-2.08] | TZ:21600 |  GMT- 03/12/20 22:04:07
+Local: 03/12/20 17:04:09 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190031] | TZ:21600 |  GMT- 03/12/20 22:04:09
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | run STANDARD Session Mode with session number: [686] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo mkdir  on: [/var/www/html/students/PitchSessionFiles/SM190031-000686-smartmitt] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo mkdir command: [0] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chmod 777 on: [/var/www/html/students/PitchSessionFiles/SM190031-000686-smartmitt] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chmod 777 command: [0] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chown pi on: [/var/www/html/students/PitchSessionFiles/SM190031-000686-smartmitt] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chOWN command: [0] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chgrp pi on: [/var/www/html/students/PitchSessionFiles/SM190031-000686-smartmitt] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chGRP command: [0] | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunStandardAndPracticeSession       - | Starting while loop for KeepProcessingPitches | TZ:21600 |  GMT- 03/12/20 22:04:10
+Local: 03/12/20 17:04:10 | 0030-RunSTANDARDSession       - | ERROR - Practice Mode FIRST FRAME NOT FOUND for sess/guid/frame#- exiting program 888: [686 - 1] | TZ:21600 |  GMT- 03/12/20 22:04:10

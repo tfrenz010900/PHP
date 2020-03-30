@@ -1,0 +1,56 @@
+1.7.3 – Feb 29 2016
+- Updated to support Youtube API V3
+- Added PHP script for Youtube API request
+- Documentation updated
+1.7.2 – Jan 16 2014
+- Added startAt option.
+1.7.1 – Dec 19 2013
+- Fixed internal handling of events.
+1.7 – Oct 08 2013
+- New file structure – Easy installation -
+- Added preload spinner
+- Added plugin autoload
+- Added touch swipe navigation
+- Added youtube and vimeo video support
+- Improved data attributes
+- Improved documentation
+- Removed text no-wrap
+- Fix slider direction bug on manual mode
+- Easing functions name typo control
+- Extra CSS files removed. Advance customization via LESS files.
+1.6.3 – Jul 06 2013
+- Fix bug with data attributes
+1.6.2 – Jun 28 2013
+- Fix bug with links
+- Fix bug with deadtime option
+1.6 – May 7 2013
+- Fix bug on manual mode
+1.5 – May 1 2013
+- Added support for data attributes
+- Global animations
+- New skins Mini-skin and flat
+- New CSS3 animations
+- Added deadtime between animations
+- Added carousel mode
+- Added support for jQuery 2.0
+- Update to jQuery 1.9
+- Fix fallback animation bug
+- Fix Safari animation bug
+1.3 – Mar 15 2013
+- Navigation control’s skin based on images
+- Improved pause on hover
+- Fixed double size slider bug
+- Fixed loop option bug
+1.2 – Mar 06 2013
+- New skin added
+- Improved use of shadows
+- Support pauseOnHover on Flexslider mode
+- Support for Loops
+1.1 – Feb 05 2013
+- Added new animations
+- Added more fallbacks animations
+- .active class now is .live
+- Bugfixes
+- Added IE7 support
+1.0 – Feb 1 2013
+- New: First release

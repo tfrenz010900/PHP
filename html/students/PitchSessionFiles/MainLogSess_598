@@ -1,0 +1,172 @@
+Local Time: Tue, 08 Oct 2019 15:25:00 |** VER-2.07ws-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Tue, 08 Oct 2019 20:25:00
+Play Sound Coordinates: K, 10 to P, 16
+Local Time: 15:25:00 | Check Point 1 | 
+Local Time: 15:25:00 | Check Point 2 | 
+Local Time: 15:25:00 | Check Point 3 | 
+Local Time: 15:25:00 | Check Point 4 | 
+Local Time: 15:25:00 | Check Point 5 | 
+Local Time: 15:25:00 | Check Point 6 | 
+Local Time: 15:25:00 | Check Point 7 | 
+Local: 10/08/19 15:25:00 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py', '598'] | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local Time: 15:25:00 | Check Point 8 | 
+Local: 10/08/19 15:25:00 | 0001-Main                    - | ('Linux', 'SM190010-TRF-DEMO', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 | 0001-Main                    - | () | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 | 0001-Main                    - | uname_result(system='Linux', node='SM190010-TRF-DEMO', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM190010-TRF-DEMO | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local Time: 15:25:00 | Check Point 9 | 
+Local Time: 15:25:00 | Check Point 10 | 
+Local: 10/08/19 15:25:00 |    0001-Main -                   - | Session Number PASSED TO PROGRAM: 598 | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 |    0001-Main -                   - | Session Number READ / id Returned: 598 / 496 | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [VER-2.07ws] | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:00 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [VER-2.07ws] | TZ:21600 |  GMT- 10/08/19 20:25:00
+Local: 10/08/19 15:25:02 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/08/19 20:25:02
+Local: 10/08/19 15:25:02 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/08/19 20:25:02
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | run STANDARD Session Mode with session number: [598] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo mkdir  on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo mkdir command: [0] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chmod 777 on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chmod 777 command: [0] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chown pi on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chOWN command: [0] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chgrp pi on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chGRP command: [0] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0030-RunStandardAndPracticeSession       - | Starting while loop for KeepProcessingPitches | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [The Yard] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  StartTime: [2019-10-08 15:25:03.287662] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  ExpireTime: [2019-10-08 16:25:03.287662] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  CurrentTime: [2019-10-08 15:25:03.287678] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Loope Logic is: while (ExpireTime > CurrentTime) | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:03 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Value passeed in TimeOutValueToAbort is added to current time: [3600] | TZ:21600 |  GMT- 10/08/19 20:25:03
+Local: 10/08/19 15:25:10 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed string: [~ 029. M 
+
+
+] | TZ:21600 |  GMT- 10/08/19 20:25:10
+Local: 10/08/19 15:25:10 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Parse this speed.txt file string: [~ 029. M 
+
+
+] | TZ:21600 |  GMT- 10/08/19 20:25:10
+Local: 10/08/19 15:25:10 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed (integer): [29] | TZ:21600 |  GMT- 10/08/19 20:25:10
+Local: 10/08/19 15:25:10 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [29]  SpeedAddon = [4] | TZ:21600 |  GMT- 10/08/19 20:25:10
+Local: 10/08/19 15:25:11 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [PLATE SP] | TZ:21600 |  GMT- 10/08/19 20:25:11
+Local: 10/08/19 15:25:12 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [+RELEASE] | TZ:21600 |  GMT- 10/08/19 20:25:12
+Local: 10/08/19 15:25:16 | 0030-RunStandardAndPracticeSession       - | Calling InpactResult: [/home/pi/ImpactLocator/ImpactLocator.out /home/pi/NetworkShare/Cam1BallLine.png /home/pi/NetworkShare/Cam2BallLine.png > /home/pi/NetworkShare/ImpactResult.txt] | TZ:21600 |  GMT- 10/08/19 20:25:16
+Local: 10/08/19 15:25:16 | 6521-XevalNetLocPctCoordsV1          - | Using CUSTOM-TWO Values for X translation of Ozan % of net to Columns (A-Z) : | TZ:21600 |  GMT- 10/08/19 20:25:16
+Local: 10/08/19 15:25:16 | 6543-YevalNetLocPctCoordsV1          - | Using CUSTOM-TWO Values for Y translation of Ozan % of net to Row (1-26) : | TZ:21600 |  GMT- 10/08/19 20:25:16
+Local: 10/08/19 15:25:16 | DEBUG LINE 10-03-18 htc - x/y coordinate Pct Teaks | Translate Ozans Pct X/Y to Actual X/Y Values = 49 X-pct = N / 45 Y-pct = 14 | TZ:21600 |  GMT- 10/08/19 20:25:16
+Local: 10/08/19 15:25:16 | 0021-EvalSuccessMiss                   - | EvalSuccessMiss: [Baseball, 14, 14] | TZ:21600 |  GMT- 10/08/19 20:25:16
+Local: 10/08/19 15:25:16 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [- MISS -] | TZ:21600 |  GMT- 10/08/19 20:25:16
+Local: 10/08/19 15:25:16 | 0071-DisplayImpactLocation              - | Display Impact location: [14, 14] | TZ:21600 |  GMT- 10/08/19 20:25:16
+Local: 10/08/19 15:25:17 | DEBUG LINE 01-05-19 htc              | Preparing to call MOVEMENT Sub-Routine. | TZ:21600 |  GMT- 10/08/19 20:25:17
+Local: 10/08/19 15:25:17 | DEBUG LINE 01-05-19 htc              | Inside MOVEMENT Sub-Routine. BallCentersString1 (ONE) = [352,19
+348,61
+344,112
+340,163
+334,215
+331,249
+] | TZ:21600 |  GMT- 10/08/19 20:25:17
+Local: 10/08/19 15:25:17 | DEBUG LINE 01-05-19 htc              | Inside MOVEMENT Sub-Routine. BallCentersString2 (TWO) = [294,7
+303,37
+315,90
+327,147
+339,203
+348,251
+] | TZ:21600 |  GMT- 10/08/19 20:25:17
+Local: 10/08/19 15:25:17 | 6521-XevalNetLocPctCoordsV1          - | Using CUSTOM-TWO Values for X translation of Ozan % of net to Columns (A-Z) : | TZ:21600 |  GMT- 10/08/19 20:25:17
+Local: 10/08/19 15:25:17 | 6543-YevalNetLocPctCoordsV1          - | Using CUSTOM-TWO Values for Y translation of Ozan % of net to Row (1-26) : | TZ:21600 |  GMT- 10/08/19 20:25:17
+Local: 10/08/19 15:25:17 | 5050-CalculateMovementVer1          - | START TIME- call THREE MOVEMENT .png creations WITH FOUR POINT SMOOTHING: [python /var/www/html/students/plotsingle.py ] | TZ:21600 |  GMT- 10/08/19 20:25:17
+Local: 10/08/19 15:25:18 | 5050-CalculateMovementVer1          - | First Graph Call COMMAND STRING: python /var/www/html/students/plotsingle.py -o "/home/pi/front.png" -p "18, 0,64|19,-12.5,39" -a "Front" -c "r" -t "Front View- Sess: 598  Name: The Yard
+Pitch#: 1  Plate MPH: 29
+Pitch Call: MISS  Impact Coords: N, 14"] | TZ:21600 |  GMT- 10/08/19 20:25:18
+Local: 10/08/19 15:25:18 | 5050-CalculateMovementVer1          - | First Graph Call RESULT: 0] | TZ:21600 |  GMT- 10/08/19 20:25:18
+Local: 10/08/19 15:25:19 | 5050-CalculateMovementVer1          - | Second Graph Call COMMAND STRING: python /var/www/html/students/plotsingle.py -o "/home/pi/side.png" -p "18, 0,64|19,-12.5,39" -a "Side" -c "g" -t "Side View- Sess: 598  Name: The Yard
+Pitch#: 1  Plate MPH: 29
+Pitch Call: MISS  Impact Coords: N, 14"] | TZ:21600 |  GMT- 10/08/19 20:25:19
+Local: 10/08/19 15:25:19 | 5050-CalculateMovementVer1          - | Second Graph Call RESULT: 0] | TZ:21600 |  GMT- 10/08/19 20:25:19
+Local: 10/08/19 15:25:20 | 5050-CalculateMovementVer1          - | Third Graph Call COMMAND STRING: python /var/www/html/students/plotsingle.py -o "/home/pi/top.png" -p "18, 0,64|19,-12.5,39" -a "Top" -c "b" -t "Top View- Sess: 598  Name: The Yard
+Pitch#: 1  Plate MPH: 29
+Pitch Call: MISS  Impact Coords: N, 14"] | TZ:21600 |  GMT- 10/08/19 20:25:20
+Local: 10/08/19 15:25:20 | 5050-CalculateMovementVer1          - | Third Graph Call RESULT: 0] | TZ:21600 |  GMT- 10/08/19 20:25:20
+Local: 10/08/19 15:25:20 | 3010-CalculateMovementVer1          - | STOP TIME- call THREE MOVEMENT .png creations: [python /var/www/html/students/plotsingle.py -o "/home/pi/top.png" -p "18, 0,64|19,-12.5,39" -a "Top" -c "b" -t "Top View- Sess: 598  Name: The Yard
+Pitch#: 1  Plate MPH: 29
+Pitch Call: MISS  Impact Coords: N, 14"] | TZ:21600 |  GMT- 10/08/19 20:25:20
+Local: 10/08/19 15:25:20 | DEBUG LINE 01-05-19 htc              | Movement Sub-routine Call Result: [None] | TZ:21600 |  GMT- 10/08/19 20:25:20
+Local: 10/08/19 15:25:20 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [HOME RUN] | TZ:21600 |  GMT- 10/08/19 20:25:20
+Local: 10/08/19 15:25:21 | Added debug line 1/3/19 htc      | HOME RUN - HOME RUN - HOME RUN | TZ:21600 |  GMT- 10/08/19 20:25:21
+Local: 10/08/19 15:25:27 | 3460-WriteOnePitchToLocalPitchTable - | Valstring: ) Values ("SM190010-TRF-DEMO", "A100247", "598", "1", "29", "33", "14", "N", "14", "MISS", "60", "Baseball", "2019-10-08 15:25:27.381142", "standard", "SMV1-INTERMED", "STANDARD", "None", "-*-", "-*-", "-*-", "-*-", "0", "unknown", "", "", "-*-", "Cam-ONE-pixelsX/Y: 352, 19 / 348, 61 / 344, 112 / 340, 163 / 334, 215 / 331, 249 | Cam-TWO-pixelsX/Y: 294, 7 / 303, 37 / 315, 90 / 327, 147 / 339, 203 / 348, 251", "01/01/1900", "-*-", "right cam tag", "left cam tag", "spin cam tag", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/001Cam1CriticalFrame.png", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/001Impact.jpg", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/001front.png", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/001side.png", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/001top.png", "", "impact", "img right", "img left", "target", "GoCrazyFolksOzzieShort.wav", "", "0", "0", "", "0", "0", "0", "PS-01", "RS-01: +4", "0", "M", "6") | TZ:21600 |  GMT- 10/08/19 20:25:27
+Local: 10/08/19 15:25:27 | 3460-WriteOnePitchToLocalPitchTable - | CurrPitch_MovementInfo for Pitch [1] Cam-ONE-pixelsX/Y: 352, 19 / 348, 61 / 344, 112 / 340, 163 / 334, 215 / 331, 249 | Cam-TWO-pixelsX/Y: 294, 7 / 303, 37 / 315, 90 / 327, 147 / 339, 203 / 348, 251 | TZ:21600 |  GMT- 10/08/19 20:25:27
+Local: 10/08/19 15:25:27 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [The Yard] | TZ:21600 |  GMT- 10/08/19 20:25:27
+Local: 10/08/19 15:25:27 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  StartTime: [2019-10-08 15:25:27.513536] | TZ:21600 |  GMT- 10/08/19 20:25:27
+Local: 10/08/19 15:25:27 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  ExpireTime: [2019-10-08 16:25:27.513536] | TZ:21600 |  GMT- 10/08/19 20:25:27
+Local: 10/08/19 15:25:27 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  CurrentTime: [2019-10-08 15:25:27.513553] | TZ:21600 |  GMT- 10/08/19 20:25:27
+Local: 10/08/19 15:25:27 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Loope Logic is: while (ExpireTime > CurrentTime) | TZ:21600 |  GMT- 10/08/19 20:25:27
+Local: 10/08/19 15:25:27 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Value passeed in TimeOutValueToAbort is added to current time: [3600] | TZ:21600 |  GMT- 10/08/19 20:25:27
+Local: 10/08/19 15:25:39 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed string: [~ 028. M 
+
+
+] | TZ:21600 |  GMT- 10/08/19 20:25:39
+Local: 10/08/19 15:25:39 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Parse this speed.txt file string: [~ 028. M 
+
+
+] | TZ:21600 |  GMT- 10/08/19 20:25:39
+Local: 10/08/19 15:25:39 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed (integer): [28] | TZ:21600 |  GMT- 10/08/19 20:25:39
+Local: 10/08/19 15:25:39 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [28]  SpeedAddon = [4] | TZ:21600 |  GMT- 10/08/19 20:25:39
+Local: 10/08/19 15:25:39 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [PLATE SP] | TZ:21600 |  GMT- 10/08/19 20:25:39
+Local: 10/08/19 15:25:40 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [+RELEASE] | TZ:21600 |  GMT- 10/08/19 20:25:40
+Local: 10/08/19 15:25:45 | 0030-RunStandardAndPracticeSession       - | Calling InpactResult: [/home/pi/ImpactLocator/ImpactLocator.out /home/pi/NetworkShare/Cam1BallLine.png /home/pi/NetworkShare/Cam2BallLine.png > /home/pi/NetworkShare/ImpactResult.txt] | TZ:21600 |  GMT- 10/08/19 20:25:45
+Local: 10/08/19 15:25:45 | 6521-XevalNetLocPctCoordsV1          - | Using CUSTOM-TWO Values for X translation of Ozan % of net to Columns (A-Z) : | TZ:21600 |  GMT- 10/08/19 20:25:45
+Local: 10/08/19 15:25:45 | 6543-YevalNetLocPctCoordsV1          - | Using CUSTOM-TWO Values for Y translation of Ozan % of net to Row (1-26) : | TZ:21600 |  GMT- 10/08/19 20:25:45
+Local: 10/08/19 15:25:45 | DEBUG LINE 10-03-18 htc - x/y coordinate Pct Teaks | Translate Ozans Pct X/Y to Actual X/Y Values = 86 X-pct = X / 30 Y-pct = 11 | TZ:21600 |  GMT- 10/08/19 20:25:45
+Local: 10/08/19 15:25:45 | 0021-EvalSuccessMiss                   - | EvalSuccessMiss: [Baseball, 24, 11] | TZ:21600 |  GMT- 10/08/19 20:25:45
+Local: 10/08/19 15:25:45 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [- MISS -] | TZ:21600 |  GMT- 10/08/19 20:25:45
+Local: 10/08/19 15:25:45 | 0071-DisplayImpactLocation              - | Display Impact location: [24, 11] | TZ:21600 |  GMT- 10/08/19 20:25:45
+Local: 10/08/19 15:25:46 | DEBUG LINE 01-05-19 htc              | Preparing to call MOVEMENT Sub-Routine. | TZ:21600 |  GMT- 10/08/19 20:25:46
+Local: 10/08/19 15:25:46 | DEBUG LINE 01-05-19 htc              | Inside MOVEMENT Sub-Routine. BallCentersString1 (ONE) = [255,27
+245,85
+235,151
+226,216
+] | TZ:21600 |  GMT- 10/08/19 20:25:46
+Local: 10/08/19 15:25:46 | DEBUG LINE 01-05-19 htc              | Inside MOVEMENT Sub-Routine. BallCentersString2 (TWO) = [170,28
+175,74
+182,122
+190,170
+200,219
+209,262
+] | TZ:21600 |  GMT- 10/08/19 20:25:46
+Local: 10/08/19 15:25:46 | 6521-XevalNetLocPctCoordsV1          - | Using CUSTOM-TWO Values for X translation of Ozan % of net to Columns (A-Z) : | TZ:21600 |  GMT- 10/08/19 20:25:46
+Local: 10/08/19 15:25:46 | 6543-YevalNetLocPctCoordsV1          - | Using CUSTOM-TWO Values for Y translation of Ozan % of net to Row (1-26) : | TZ:21600 |  GMT- 10/08/19 20:25:46
+Local: 10/08/19 15:25:46 | 5050-CalculateMovementVer1          - | START TIME- call THREE MOVEMENT .png creations WITH FOUR POINT SMOOTHING: [python /var/www/html/students/plotsingle.py ] | TZ:21600 |  GMT- 10/08/19 20:25:46
+Local: 10/08/19 15:25:47 | 5050-CalculateMovementVer1          - | First Graph Call COMMAND STRING: python /var/www/html/students/plotsingle.py -o "/home/pi/front.png" -p "35, 0,67|34,-12.5,49" -a "Front" -c "r" -t "Front View- Sess: 598  Name: The Yard
+Pitch#: 2  Plate MPH: 28
+Pitch Call: MISS  Impact Coords: X, 11"] | TZ:21600 |  GMT- 10/08/19 20:25:47
+Local: 10/08/19 15:25:47 | 5050-CalculateMovementVer1          - | First Graph Call RESULT: 0] | TZ:21600 |  GMT- 10/08/19 20:25:47
+Local: 10/08/19 15:25:47 | 5050-CalculateMovementVer1          - | Second Graph Call COMMAND STRING: python /var/www/html/students/plotsingle.py -o "/home/pi/side.png" -p "35, 0,67|34,-12.5,49" -a "Side" -c "g" -t "Side View- Sess: 598  Name: The Yard
+Pitch#: 2  Plate MPH: 28
+Pitch Call: MISS  Impact Coords: X, 11"] | TZ:21600 |  GMT- 10/08/19 20:25:47
+Local: 10/08/19 15:25:47 | 5050-CalculateMovementVer1          - | Second Graph Call RESULT: 0] | TZ:21600 |  GMT- 10/08/19 20:25:47
+Local: 10/08/19 15:25:48 | 5050-CalculateMovementVer1          - | Third Graph Call COMMAND STRING: python /var/www/html/students/plotsingle.py -o "/home/pi/top.png" -p "35, 0,67|34,-12.5,49" -a "Top" -c "b" -t "Top View- Sess: 598  Name: The Yard
+Pitch#: 2  Plate MPH: 28
+Pitch Call: MISS  Impact Coords: X, 11"] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 5050-CalculateMovementVer1          - | Third Graph Call RESULT: 0] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 3010-CalculateMovementVer1          - | STOP TIME- call THREE MOVEMENT .png creations: [python /var/www/html/students/plotsingle.py -o "/home/pi/top.png" -p "35, 0,67|34,-12.5,49" -a "Top" -c "b" -t "Top View- Sess: 598  Name: The Yard
+Pitch#: 2  Plate MPH: 28
+Pitch Call: MISS  Impact Coords: X, 11"] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | DEBUG LINE 01-05-19 htc              | Movement Sub-routine Call Result: [None] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 3460-WriteOnePitchToLocalPitchTable - | Valstring: ) Values ("SM190010-TRF-DEMO", "A100247", "598", "2", "28", "32", "24", "X", "11", "MISS", "60", "Baseball", "2019-10-08 15:25:48.786470", "standard", "SMV1-INTERMED", "STANDARD", "None", "-*-", "-*-", "-*-", "-*-", "0", "unknown", "", "", "-*-", "Cam-ONE-pixelsX/Y: 255, 27 / 245, 85 / 235, 151 / 226, 216 | Cam-TWO-pixelsX/Y: 170, 28 / 175, 74 / 182, 122 / 190, 170 / 200, 219 / 209, 262", "01/01/1900", "-*-", "right cam tag", "left cam tag", "spin cam tag", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/002Cam1CriticalFrame.png", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/002Impact.jpg", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/002front.png", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/002side.png", "PitchSessionFiles/SM190010-TRF-DEMO-000598-A100247/002top.png", "", "impact", "img right", "img left", "target", "", "", "0", "0", "", "0", "0", "0", "PS-01", "RS-01: +4", "0", "Y", "5") | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 3460-WriteOnePitchToLocalPitchTable - | CurrPitch_MovementInfo for Pitch [2] Cam-ONE-pixelsX/Y: 255, 27 / 245, 85 / 235, 151 / 226, 216 | Cam-TWO-pixelsX/Y: 170, 28 / 175, 74 / 182, 122 / 190, 170 / 200, 219 / 209, 262 | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [The Yard] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  StartTime: [2019-10-08 15:25:48.913369] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  ExpireTime: [2019-10-08 16:25:48.913369] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  CurrentTime: [2019-10-08 15:25:48.913383] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Loope Logic is: while (ExpireTime > CurrentTime) | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:25:48 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Value passeed in TimeOutValueToAbort is added to current time: [3600] | TZ:21600 |  GMT- 10/08/19 20:25:48
+Local: 10/08/19 15:27:08 | 2033-WaitForSpeedFile          - | stop.txt #2 file found, ending SmMain.py: [/var/www/html/students/stop.txt] | TZ:21600 |  GMT- 10/08/19 20:27:08
+Local: 10/08/19 15:27:08 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [4]  SpeedAddon = [4] | TZ:21600 |  GMT- 10/08/19 20:27:08
+Local: 10/08/19 15:27:08 | 0030-RunStandardAndPracticeSession       - | SpeedReturnValue = 4, stop.txt file found, ending program normally- reason: [CANCELLED] File found at: /var/www/html/students/stop.txt | TZ:21600 |  GMT- 10/08/19 20:27:08
+Local: 10/08/19 15:27:08 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [CANCELLED] | TZ:21600 |  GMT- 10/08/19 20:27:08
+Local: 10/08/19 15:27:08 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [CANCELLED] | TZ:21600 |  GMT- 10/08/19 20:27:08
+Local: 10/08/19 15:27:13 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/08/19 20:27:13
+Local: 10/08/19 15:27:13 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/08/19 20:27:13
+Local: 10/08/19 15:27:13 | 0001-Main -                   - | Session Number 598 Ended with Status: CANCELLED | TZ:21600 |  GMT- 10/08/19 20:27:13

@@ -1,0 +1,38 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM991021-352"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"smartmitt"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM991021",
+"SessionNumber":"SM991021-352",
+"AccountID":"smartmitt",
+"Distance":"43",
+"Target Type":"Intermediate",
+"PitchNumber":1,
+"X":"P",
+"Y":8,
+"Date":"2019-01-04T05:15:04",
+"Time":"2019-01-04T05:15:04",
+"MPH":"64.0",
+"MPH Plate Speed":"64.0",
+"MPH Release":"70.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"P",
+"Y":8,
+"EI Row ID":"SM991021-352-1",
+"EI Row Count":"1"
+}
+]
+}

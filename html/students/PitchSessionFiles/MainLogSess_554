@@ -1,0 +1,53 @@
+Local Time: Tue, 01 Oct 2019 13:22:11 |** VER-2.05-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Tue, 01 Oct 2019 18:22:11
+Play Sound Coordinates: K, 10 to P, 16
+Local Time: 13:22:11 | Check Point 1 | 
+Local Time: 13:22:11 | Check Point 2 | 
+Local Time: 13:22:11 | Check Point 3 | 
+Local Time: 13:22:11 | Check Point 4 | 
+Local Time: 13:22:11 | Check Point 5 | 
+Local Time: 13:22:11 | Check Point 6 | 
+Local Time: 13:22:11 | Check Point 7 | 
+Local: 10/01/19 13:22:11 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:11 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py', '554'] | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local Time: 13:22:11 | Check Point 8 | 
+Local: 10/01/19 13:22:11 | 0001-Main                    - | ('Linux', 'SM190010-TRF-DEMO', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:11 | 0001-Main                    - | () | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:11 | 0001-Main                    - | uname_result(system='Linux', node='SM190010-TRF-DEMO', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:11 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM190010-TRF-DEMO | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:11 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:11 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local Time: 13:22:11 | Check Point 9 | 
+Local Time: 13:22:11 | Check Point 10 | 
+Local: 10/01/19 13:22:11 |    0001-Main -                   - | Session Number PASSED TO PROGRAM: 554 | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:11 |    0001-Main -                   - | Session Number READ / id Returned: 554 / 452 | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:11 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [VER-2.05] | TZ:21600 |  GMT- 10/01/19 18:22:11
+Local: 10/01/19 13:22:12 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/01/19 18:22:12
+Local: 10/01/19 13:22:12 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 10/01/19 18:22:12
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | run STANDARD Session Mode with session number: [554] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo mkdir  on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000554-A100096] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo mkdir command: [0] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chmod 777 on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000554-A100096] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chmod 777 command: [0] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chown pi on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000554-A100096] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chOWN command: [0] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chgrp pi on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000554-A100096] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chGRP command: [0] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0030-RunStandardAndPracticeSession       - | Starting while loop for KeepProcessingPitches | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Impact] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  StartTime: [2019-10-01 13:22:14.186727] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  ExpireTime: [2019-10-01 14:22:14.186727] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  CurrentTime: [2019-10-01 13:22:14.186742] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Loope Logic is: while (ExpireTime > CurrentTime) | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:22:14 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Value passeed in TimeOutValueToAbort is added to current time: [3600] | TZ:21600 |  GMT- 10/01/19 18:22:14
+Local: 10/01/19 13:27:04 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed string: [~
+
+
+
+DET.1 
+] | TZ:21600 |  GMT- 10/01/19 18:27:04
+Local: 10/01/19 13:27:04 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Parse this speed.txt file string: [~
+
+
+
+DET.1 
+] | TZ:21600 |  GMT- 10/01/19 18:27:04

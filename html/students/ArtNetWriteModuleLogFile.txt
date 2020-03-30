@@ -1,0 +1,65 @@
+[2018-10-26 08:03:53,298    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 929, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-10-26 08:03:53,298    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 929, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-10-26 08:03:53,298    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 929, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-10-26 08:03:53,298    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 929, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-10-26 08:03:53,298    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 929, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-11-29 20:00:11,548    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 1032, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-11-29 20:00:11,548    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 1032, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-11-29 20:00:11,548    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 1032, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-11-29 20:00:11,548    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 1032, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-11-29 20:00:11,548    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "SmMain.py", line 1032, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2018-12-01 10:22:19,338    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "/var/www/html/students/SmMain.py", line 1078, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2019-10-18 17:34:35,233    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "/var/www/html/students/SmMain.py", line 1251, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable
+[2019-10-18 17:35:28,098    ERROR] Failed to send RGB data. See the stack trace below
+Traceback (most recent call last):
+  File "/var/www/html/students/SmMain.py", line 1251, in Artdmx_Script_Ver1a
+    sock.sendto(pkt, (ip_address, port))
+OSError: [Errno 101] Network is unreachable

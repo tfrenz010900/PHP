@@ -1,0 +1,89 @@
+Local Time: Mon, 26 Aug 2019 18:02:42 |** __SmMain_Ver7a-190805_htc.py-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Mon, 26 Aug 2019 23:02:42
+Play Sound Coordinates: K, 10 to P, 16
+Local Time: 18:02:42 | Check Point 1 | 
+Local Time: 18:02:42 | Check Point 2 | 
+Local Time: 18:02:42 | Check Point 3 | 
+Local Time: 18:02:42 | Check Point 4 | 
+Local Time: 18:02:42 | Check Point 5 | 
+Local Time: 18:02:42 | Check Point 6 | 
+Local Time: 18:02:42 | Check Point 7 | 
+Local: 08/26/19 18:02:42 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 08/26/19 23:02:42
+Local: 08/26/19 18:02:42 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py', '488'] | TZ:21600 |  GMT- 08/26/19 23:02:42
+Local Time: 18:02:42 | Check Point 8 | 
+Local: 08/26/19 18:02:42 | 0001-Main                    - | ('Linux', 'SM190010-TRF-DEMO', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 08/26/19 23:02:42
+Local: 08/26/19 18:02:42 | 0001-Main                    - | () | TZ:21600 |  GMT- 08/26/19 23:02:42
+Local: 08/26/19 18:02:42 | 0001-Main                    - | uname_result(system='Linux', node='SM190010-TRF-DEMO', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 08/26/19 23:02:42
+Local: 08/26/19 18:02:42 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM190010-TRF-DEMO | TZ:21600 |  GMT- 08/26/19 23:02:42
+Local: 08/26/19 18:02:42 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 08/26/19 23:02:42
+Local: 08/26/19 18:02:42 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 08/26/19 23:02:42
+Local Time: 18:02:43 | Check Point 9 | 
+Local Time: 18:02:43 | Check Point 10 | 
+Local: 08/26/19 18:02:43 |    0001-Main -                   - | Session Number PASSED TO PROGRAM: 488 | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 |    0001-Main -                   - | Session Number READ / id Returned: 488 / 386 | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | run STANDARD Session Mode with session number: [488] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo mkdir  on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000488-A100096] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo mkdir command: [0] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chmod 777 on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000488-A100096] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chmod 777 command: [0] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chown pi on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000488-A100096] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chOWN command: [0] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chgrp pi on: [/var/www/html/students/PitchSessionFiles/SM190010-TRF-DEMO-000488-A100096] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chGRP command: [0] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0030-RunStandardAndPracticeSession       - | Starting while loop for KeepProcessingPitches | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:02:43 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Impact] | TZ:21600 |  GMT- 08/26/19 23:02:43
+Local: 08/26/19 18:05:07 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Parse this speed.txt file string: [~ 039. M 
+
+
+] | TZ:21600 |  GMT- 08/26/19 23:05:07
+Local: 08/26/19 18:05:07 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed (integer): [39] | TZ:21600 |  GMT- 08/26/19 23:05:07
+Local: 08/26/19 18:05:07 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [39]  SpeedAddon = [3] | TZ:21600 |  GMT- 08/26/19 23:05:07
+Local: 08/26/19 18:05:07 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [PLATE SP] | TZ:21600 |  GMT- 08/26/19 23:05:07
+Local: 08/26/19 18:05:08 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [+RELEASE] | TZ:21600 |  GMT- 08/26/19 23:05:08
+Local: 08/26/19 18:05:13 | 0030-RunStandardAndPracticeSession       - | Found NOPITCH.txt file in NetworkSharePath, abortintg this pitch as no-pitch. | TZ:21600 |  GMT- 08/26/19 23:05:13
+Local: 08/26/19 18:05:13 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [NO PITCH] | TZ:21600 |  GMT- 08/26/19 23:05:13
+Local: 08/26/19 18:05:14 | DEBUG LINE 10-26-18 htc              | NO PITCH - NO PITCH - NO PITCH | TZ:21600 |  GMT- 08/26/19 23:05:14
+Local: 08/26/19 18:05:14 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Impact] | TZ:21600 |  GMT- 08/26/19 23:05:14
+Local: 08/26/19 18:05:18 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Parse this speed.txt file string: [~ 035. M 
+
+
+] | TZ:21600 |  GMT- 08/26/19 23:05:18
+Local: 08/26/19 18:05:18 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed (integer): [35] | TZ:21600 |  GMT- 08/26/19 23:05:18
+Local: 08/26/19 18:05:18 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [35]  SpeedAddon = [3] | TZ:21600 |  GMT- 08/26/19 23:05:18
+Local: 08/26/19 18:05:18 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [PLATE SP] | TZ:21600 |  GMT- 08/26/19 23:05:18
+Local: 08/26/19 18:05:20 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [+RELEASE] | TZ:21600 |  GMT- 08/26/19 23:05:20
+Local: 08/26/19 18:05:24 | 0030-RunStandardAndPracticeSession       - | Found NOPITCH.txt file in NetworkSharePath, abortintg this pitch as no-pitch. | TZ:21600 |  GMT- 08/26/19 23:05:24
+Local: 08/26/19 18:05:24 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [NO PITCH] | TZ:21600 |  GMT- 08/26/19 23:05:24
+Local: 08/26/19 18:05:25 | DEBUG LINE 10-26-18 htc              | NO PITCH - NO PITCH - NO PITCH | TZ:21600 |  GMT- 08/26/19 23:05:25
+Local: 08/26/19 18:05:25 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Impact] | TZ:21600 |  GMT- 08/26/19 23:05:25
+Local: 08/26/19 18:05:42 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Parse this speed.txt file string: [~ 036. M 
+
+
+] | TZ:21600 |  GMT- 08/26/19 23:05:42
+Local: 08/26/19 18:05:42 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed (integer): [36] | TZ:21600 |  GMT- 08/26/19 23:05:42
+Local: 08/26/19 18:05:42 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [36]  SpeedAddon = [3] | TZ:21600 |  GMT- 08/26/19 23:05:42
+Local: 08/26/19 18:05:42 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [PLATE SP] | TZ:21600 |  GMT- 08/26/19 23:05:42
+Local: 08/26/19 18:05:43 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [+RELEASE] | TZ:21600 |  GMT- 08/26/19 23:05:43
+Local: 08/26/19 18:05:47 | 0030-RunStandardAndPracticeSession       - | Found NOPITCH.txt file in NetworkSharePath, abortintg this pitch as no-pitch. | TZ:21600 |  GMT- 08/26/19 23:05:47
+Local: 08/26/19 18:05:47 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [NO PITCH] | TZ:21600 |  GMT- 08/26/19 23:05:47
+Local: 08/26/19 18:05:48 | DEBUG LINE 10-26-18 htc              | NO PITCH - NO PITCH - NO PITCH | TZ:21600 |  GMT- 08/26/19 23:05:48
+Local: 08/26/19 18:05:48 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Impact] | TZ:21600 |  GMT- 08/26/19 23:05:48
+Local: 08/26/19 18:06:11 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Parse this speed.txt file string: [~ 035. M 
+
+
+] | TZ:21600 |  GMT- 08/26/19 23:06:11
+Local: 08/26/19 18:06:11 | 0274-WaitForSpeedFile(TimeOutValueToAbort)   - | Got this speed (integer): [35] | TZ:21600 |  GMT- 08/26/19 23:06:11
+Local: 08/26/19 18:06:11 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [35]  SpeedAddon = [3] | TZ:21600 |  GMT- 08/26/19 23:06:11
+Local: 08/26/19 18:06:12 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [PLATE SP] | TZ:21600 |  GMT- 08/26/19 23:06:12
+Local: 08/26/19 18:06:13 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [+RELEASE] | TZ:21600 |  GMT- 08/26/19 23:06:13
+Local: 08/26/19 18:06:17 | 0030-RunStandardAndPracticeSession       - | Found NOPITCH.txt file in NetworkSharePath, abortintg this pitch as no-pitch. | TZ:21600 |  GMT- 08/26/19 23:06:17
+Local: 08/26/19 18:06:17 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [NO PITCH] | TZ:21600 |  GMT- 08/26/19 23:06:17
+Local: 08/26/19 18:06:18 | DEBUG LINE 10-26-18 htc              | NO PITCH - NO PITCH - NO PITCH | TZ:21600 |  GMT- 08/26/19 23:06:18
+Local: 08/26/19 18:06:18 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Impact] | TZ:21600 |  GMT- 08/26/19 23:06:18
+Local: 08/26/19 18:08:20 | 2033-WaitForSpeedFile          - | stop.txt #2 file found, ending SmMain.py: [/var/www/html/students/stop.txt] | TZ:21600 |  GMT- 08/26/19 23:08:20
+Local: 08/26/19 18:08:20 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [3]  SpeedAddon = [3] | TZ:21600 |  GMT- 08/26/19 23:08:20
+Local: 08/26/19 18:08:20 | 0030-RunStandardAndPracticeSession       - | stop.txt file found, ending program normally- reason: [CANCELLED]  | TZ:21600 |  GMT- 08/26/19 23:08:20
+Local: 08/26/19 18:08:20 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [CANCELLED] | TZ:21600 |  GMT- 08/26/19 23:08:20
+Local: 08/26/19 18:08:20 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [CANCELLED] | TZ:21600 |  GMT- 08/26/19 23:08:20
+Local: 08/26/19 18:08:26 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 08/26/19 23:08:26
+Local: 08/26/19 18:08:26 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [SM190010-TRF-DEMO] | TZ:21600 |  GMT- 08/26/19 23:08:26
+Local: 08/26/19 18:08:26 | 0001-Main -                   - | Session Number 488 Ended with Status: CANCELLED | TZ:21600 |  GMT- 08/26/19 23:08:26

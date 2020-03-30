@@ -1,0 +1,151 @@
+
+/*
+================================================== 
+  Lush Demo Sliders Styles
+================================================== 
+*/
+
+
+/* Slider Demo
+------------------*/
+
+.bg-sky,
+.bg-dark  {
+  width: 1140px;
+  height: 450px;
+}
+
+.bg-sky { background-color: #20c4b8; }
+.bg-dark { background-color: #303030; }
+
+.t-white {
+  background: white;
+  color: #303030;
+  text-shadow: 0 5px 0 rgba(204,204,204,0.75) !important;
+}
+
+.t-red {
+  background: #f05c58;
+  color: white;
+  text-align: center;
+}
+
+.t-orange {
+  background: #ec8723;
+  color: #eee;
+}
+
+.t-yellow {
+  background: #face0d;
+  color: #eee;
+}
+
+.t-yellow-b {
+  color: #face0d;
+}
+
+.t-white-b {
+  color: #fff;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.bg-black {
+  background: rgba(0,0,0,0.5);
+}
+
+.t-bold-title {
+  background-color: #7cc152; color: #fff; font-size: 42px; font-weight: bold; line-height: 1; padding: 10px; border-radius: 5px;  
+}
+
+.t-bold-text,
+.t-bold-plus {
+  font-size: 24px; line-height: 1; color: #353535; font-weight: bold;
+}
+
+.t-bold-plus {
+ color: #7cc152; 
+}
+
+/* Ads demo 
+------------------*/
+
+.lush-ad-demo {
+  height: 200px;
+  background-image: url('../img/ads/bg.jpg');
+  background-size: 100% auto;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.ad-text {
+   font-size: 36px; color: white; line-height: 40px;
+}
+.ad-text-sm {
+  color: #e1e1e1; 
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.ad-btn {
+  padding: 15px 25px;
+  font-size: 30px;
+  line-height: 30px;
+  background: #427aed;
+  color: #f1f1f1;
+  text-decoration: none;
+  border-radius: 3px;
+  border-bottom: 4px solid #2d6ae2;
+} 
+.ad-btn:hover, 
+.ad-btn:focus {
+  color: #fff;
+  text-decoration: none;
+} 
+/* Basic demo
+------------------*/
+
+#demo-basic {
+  max-height: 700px;
+  margin: 0 auto;
+  background: white;
+  font-size: 20px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  border: 4px solid #cccccc;
+}
+
+#demo-basic p {
+  white-space: normal !important;
+  width: 470px;
+}
+#demo-basic h3 {
+  font-size: 150%;
+  width: 470px;
+}
+
+/* Iframe demo
+------------------*/
+
+iframe {
+	border: 1px solid #f1f2f3 !important;
+}
+
+.lush-external {
+  width: 80px;
+  height: 80px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+/* Carousel demo
+  (limit the responsive size and center)
+------------------*/
+.lush-carousel-demo {
+  max-width: 700px;
+  margin: 0 auto;
+}
