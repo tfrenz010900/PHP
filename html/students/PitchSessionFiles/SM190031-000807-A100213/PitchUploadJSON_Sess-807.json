@@ -1,0 +1,38 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190031-807"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100213"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-807",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Early Development",
+"PitchNumber":1,
+"X":"O",
+"Y":10,
+"Date":"2020-02-26T20:21:02",
+"Time":"2020-02-26T20:21:02",
+"MPH":"65.0",
+"MPH Plate Speed":"65.0",
+"MPH Release":"67.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"O",
+"Y":10,
+"EI Row ID":"SM190031-807-1",
+"EI Row Count":"1"
+}
+]
+}

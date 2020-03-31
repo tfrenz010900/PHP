@@ -1,0 +1,59 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190010-TRF-DEMO-462"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100096"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190010-TRF-DEMO",
+"SessionNumber":"SM190010-TRF-DEMO-462",
+"AccountID":"A100096",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":1,
+"X":"J",
+"Y":12,
+"Date":"2019-08-25T18:11:28",
+"Time":"2019-08-25T18:11:28",
+"MPH":"57.0",
+"MPH Plate Speed":"57.0",
+"MPH Release":"60.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"J",
+"Y":12,
+"EI Row ID":"SM190010-TRF-DEMO-462-1",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190010-TRF-DEMO",
+"SessionNumber":"SM190010-TRF-DEMO-462",
+"AccountID":"A100096",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":2,
+"X":"R",
+"Y":21,
+"Date":"2019-08-25T18:12:04",
+"Time":"2019-08-25T18:12:04",
+"MPH":"49.0",
+"MPH Plate Speed":"49.0",
+"MPH Release":"52.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"R",
+"Y":21,
+"EI Row ID":"SM190010-TRF-DEMO-462-2",
+"EI Row Count":"1"
+}
+]
+}

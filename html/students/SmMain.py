@@ -7,9 +7,10 @@
 #  Migrated to Intel NUC SM990005 late August 2018 to work directly on SQL/Maria DB.
 #
 #
-#  TRF  03/21/2020 Version 3.0.0 started - added display logic for plate speed, and release speed to be separated - a "zero" will not diplay on LED screen
-#                                          added display logic for "Success" and "Miss" display Y/N
-#                                          tried to fix bug on pitch table lookup that causes program to end - think it is a subscript issue
+#
+#               10/08/19 htc for TRF USE ONLY - Has '-2' logic in here to "FORCE" to data  ozan
+#
+#                       TRF did figure out the up/down error by leveling the cage/box today.
 #
 #               I DID NOT !!!!!!!!!  change this value in the movement/graph routines (def CalculateMovementVer1():)
 #                                                             around line 3,500.
@@ -86,7 +87,7 @@ GlobalMachineID = 'Machine ID NOT SET'
 
 
 
-# SET VERSION NUMBER
+
 
 global smMainVersion
 # 9/11/19 htc smMainVersion = 'VER-2.01'
@@ -94,8 +95,7 @@ global smMainVersion
 # 9/19/19 htc smMainVersion = 'VER-2.03'
 # 9/20/19 htc smMainVersion = 'VER-2.04'
 #smMainVersion = 'VER-2.07wsForecMinus2Vertical'
-#smMainVersion = 'VER-2.08'
-smMainVersion = 'VER-03.00'
+smMainVersion = 'VER-2.08'
 
 
 
@@ -208,7 +208,7 @@ else:
 
 
 
-# THIS SECTION IS TO SET THE SOUND IF THE STUDENT THROWS A HOMERUN BALL AND THE COACH ALLOWS THE HOMERUN SONG TO BE PLAYED
+
 #01/01/19 htc - added SOUND ZONE Values "hard coded"
 global gstrSoundTopLeftX
 global gintSoundTopLeftY
@@ -457,7 +457,7 @@ CurrFrame_EndXX = ''
 CurrFrame_EndXY = 0
 
 
-# FONT DEFINITIONS FOR LETTERS TO DISPLAY ON LED BOARD
+
 # 7/29/18 htc - copied in my Marquee Font Definitions
 gfontA = 'A,5x7,00100,02020,30003,40004,55555,60006,70007'
 gfontB = 'B,5x7,11110,20002,30003,44440,50005,60006,77770'
@@ -599,10 +599,7 @@ SmartMitt Artnet/RGB Hex Strings to Image converter - by Terry from UK, August 2
 ##import numpy as np
 ##from PIL import Image
 
-#TRF - CHECK THIS OUT TO SEE IF SUBSCRIPT TURNS OUT TO BE NEGATIVE OR ZERO OR 
 def YevalNetLocPctCoordsV1(intPctOfYrow):
-    
-    
 #9/14/18 htc - converted this code from MSM Access/VBA to Python.
 
 # MAKE THIS LINE A WRITE-LOG STATEMENT
@@ -621,7 +618,7 @@ def YevalNetLocPctCoordsV1(intPctOfYrow):
     bolUseCustom2 = True
 
 
-# TRF WE USE THESE VALUES TO PLACE THE BALL INTO THE CORRECT x/y  THESE ARE BASED ON PIXEL PERCENT 
+
 
     if bolUseCustom1:    #10/25/18 htc - "custom" with TRF 1st try Summer 2018.
         WriteLogFile('Using CUSTOM-ONE Values for Y translation of Ozan % of net to Row (1-26) :', '6543-YevalNetLocPctCoordsV1          -')
@@ -825,7 +822,7 @@ def YevalNetLocPctCoordsV1(intPctOfYrow):
 
 
 
-#TRF  2+2 error was that the displayed location of impact shown was 2 ball to the right and 2 balls high than the actual thrown location
+
 # 10/27/19 htc - attempt to fix "+2+2" error.
 
     if gintFinalImpactSMgridY >= 3:
@@ -837,8 +834,6 @@ def YevalNetLocPctCoordsV1(intPctOfYrow):
 
     return(gintFinalImpactSMgridY)
 
-
-#TRF CHECK HERE IFintPctOfXcol could be 0 or negative?
 
 def XevalNetLocPctCoordsV1(intPctOfXcol):
  #9/14/18 htc - converted this code from MSM Access/VBA to Python.
@@ -1144,8 +1139,7 @@ def XevalNetLocPctCoordsV1(intPctOfXcol):
 
 
     return(gstrFinalImpactSMgridX)
-#
-# TRF   DISPLAY THE IMPACT LOCATION BY TAKING A IMAGE AND CREATING THE ARTNET TO DISPLAY IT ON THE LED
+
 
 def chunk(_iter, chunk_size):
     """
@@ -1246,7 +1240,6 @@ def Artdmx_Script_Ver1a():
 
    #  print ('CheckPoint1: ArtdmxToNDB')
 
-#TRF   PRINT THE FILE TO THE NDB AND DISPLAY IT ON THE LED PANEL
    ip_address = '10.0.0.100'
    port = 6454
    rgb_file = 'NdbArtNetCtrlString.txt'
@@ -1478,8 +1471,6 @@ def BuildSelectedBaseTargetArrayForThisRun(TargetToDefine, strX1, intY1, strX2, 
 #        gbolDisplayRHB = True
 
 #    gbolDisplayRHB = True
-
-#TRF  THIS IS USED TO DISPLAY THE RHB AND LHB TARGETS ON THE LED
     if gbolDisplayRHB:
         PaintThisBox(SM_Red, 26, 1, 28, 1)
         PaintThisBox(SM_Red, 26, 2, 28, 2)
@@ -2428,9 +2419,6 @@ def EvalSuccessMiss(BallType, impactXnum, impactYnum):
 # ****************************************************************************************************************
 # ****************************************************************************************************************
 # ****************************************************************************************************************
-
-#TRF   BALL TYPE WILL MEASURE THE CENTER OF THE BALL AND DETERMINE THE IMPACT LOCATION OF THE BALL BASED ON SOFTBALL OR BASEBALL
-#        TWO BALL CENTERS COULD BE EXACTLY THE SAME BUT THE SOFTBALL BALL TYPE MIGHT MAKE A PITCH HIT THE TARGET WHILE  A BASEBALL MIGHT JUST MISS IT
 
     if len(BallType) > 4:
        BallType = str(BallType[0:4]).upper()

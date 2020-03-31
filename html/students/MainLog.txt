@@ -1,20 +1,38 @@
-Local Time: Mon, 30 Mar 2020 13:49:10 |** VER-03.00-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Mon, 30 Mar 2020 18:49:10
+Local Time: Tue, 31 Mar 2020 17:49:27 |** VER-2.08-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Tue, 31 Mar 2020 22:49:27
 Play Sound Coordinates: K, 10 to P, 16
-Local Time: 13:49:10 | Check Point 1 | 
-Local Time: 13:49:10 | Check Point 2 | 
-Local Time: 13:49:10 | Check Point 3 | 
-Local Time: 13:49:10 | Check Point 4 | 
-Local Time: 13:49:10 | Check Point 5 | 
-Local Time: 13:49:10 | Check Point 6 | 
-Local Time: 13:49:10 | Check Point 7 | 
-Local: 03/30/20 13:49:10 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 03/30/20 18:49:10
-Local: 03/30/20 13:49:10 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py', '870'] | TZ:21600 |  GMT- 03/30/20 18:49:10
-Local Time: 13:49:10 | Check Point 8 | 
-Local: 03/30/20 13:49:10 | 0001-Main                    - | ('Linux', 'SM190031', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 03/30/20 18:49:10
-Local: 03/30/20 13:49:10 | 0001-Main                    - | () | TZ:21600 |  GMT- 03/30/20 18:49:10
-Local: 03/30/20 13:49:10 | 0001-Main                    - | uname_result(system='Linux', node='SM190031', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 03/30/20 18:49:10
-Local: 03/30/20 13:49:10 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM190031 | TZ:21600 |  GMT- 03/30/20 18:49:10
-Local: 03/30/20 13:49:10 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190031] | TZ:21600 |  GMT- 03/30/20 18:49:10
-Local Time: 13:49:10 | Check Point 9 | 
-Local Time: 13:49:10 | Check Point 10 | 
-Local: 03/30/20 13:49:10 |    0001-Main -                   - | Session Number PASSED TO PROGRAM: 870 | TZ:21600 |  GMT- 03/30/20 18:49:10
+Local Time: 17:49:27 | Check Point 1 | 
+Local Time: 17:49:27 | Check Point 2 | 
+Local Time: 17:49:27 | Check Point 3 | 
+Local Time: 17:49:27 | Check Point 4 | 
+Local Time: 17:49:27 | Check Point 5 | 
+Local Time: 17:49:27 | Check Point 6 | 
+Local Time: 17:49:27 | Check Point 7 | 
+Local: 03/31/20 17:49:27 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local: 03/31/20 17:49:27 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py'] | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local Time: 17:49:27 | Check Point 8 | 
+Local: 03/31/20 17:49:27 | 0001-Main                    - | ('Linux', 'SM190031', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local: 03/31/20 17:49:27 | 0001-Main                    - | () | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local: 03/31/20 17:49:27 | 0001-Main                    - | uname_result(system='Linux', node='SM190031', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local: 03/31/20 17:49:27 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM190031 | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local: 03/31/20 17:49:27 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190031] | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local Time: 17:49:27 | Check Point 9 | 
+Local: 03/31/20 17:49:27 | 0008-RunBootUpLedCheck             - | Run LED panel exercise/self-check at bootup | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local: 03/31/20 17:49:27 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [TESTMODE] | TZ:21600 |  GMT- 03/31/20 22:49:27
+Local: 03/31/20 17:49:28 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [TESTMODE] | TZ:21600 |  GMT- 03/31/20 22:49:28
+Local: 03/31/20 17:49:29 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [ABCDEFGH] | TZ:21600 |  GMT- 03/31/20 22:49:29
+Local: 03/31/20 17:49:30 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [ABCDEFGH] | TZ:21600 |  GMT- 03/31/20 22:49:30
+Local: 03/31/20 17:49:31 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [IJKLMNOP] | TZ:21600 |  GMT- 03/31/20 22:49:31
+Local: 03/31/20 17:49:32 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [IJKLMNOP] | TZ:21600 |  GMT- 03/31/20 22:49:32
+Local: 03/31/20 17:49:33 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [QRSTUVWX] | TZ:21600 |  GMT- 03/31/20 22:49:33
+Local: 03/31/20 17:49:34 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [QRSTUVWX] | TZ:21600 |  GMT- 03/31/20 22:49:34
+Local: 03/31/20 17:49:35 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [YZ  2SP] | TZ:21600 |  GMT- 03/31/20 22:49:35
+Local: 03/31/20 17:49:36 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [- _=+-] | TZ:21600 |  GMT- 03/31/20 22:49:36
+Local: 03/31/20 17:49:37 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [0123456789-TOO LONG TEST] | TZ:21600 |  GMT- 03/31/20 22:49:37
+Local: 03/31/20 17:49:37 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [0123456789-TOO LONG TEST] | TZ:21600 |  GMT- 03/31/20 22:49:37
+Local: 03/31/20 17:49:38 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [23456789] | TZ:21600 |  GMT- 03/31/20 22:49:38
+Local: 03/31/20 17:49:39 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [TARGETS] | TZ:21600 |  GMT- 03/31/20 22:49:39
+Local: 03/31/20 17:49:39 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [EARLYDEV] | TZ:21600 |  GMT- 03/31/20 22:49:39
+Local: 03/31/20 17:49:41 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [ED-RIVER] | TZ:21600 |  GMT- 03/31/20 22:49:41
+Local: 03/31/20 17:49:42 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [INTERMED] | TZ:21600 |  GMT- 03/31/20 22:49:42
+Local: 03/31/20 17:49:43 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [IM-RIVER] | TZ:21600 |  GMT- 03/31/20 22:49:43
+Local: 03/31/20 17:49:44 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SELECT] | TZ:21600 |  GMT- 03/31/20 22:49:44

@@ -1,0 +1,122 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190031-831"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100213"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-831",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":1,
+"X":"H",
+"Y":5,
+"Date":"2020-03-08T16:27:01",
+"Time":"2020-03-08T16:27:01",
+"MPH":"45.0",
+"MPH Plate Speed":"45.0",
+"MPH Release":"47.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"H",
+"Y":5,
+"EI Row ID":"SM190031-831-1",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-831",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":2,
+"X":"W",
+"Y":19,
+"Date":"2020-03-08T16:27:35",
+"Time":"2020-03-08T16:27:35",
+"MPH":"49.0",
+"MPH Plate Speed":"49.0",
+"MPH Release":"51.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"W",
+"Y":19,
+"EI Row ID":"SM190031-831-2",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-831",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":3,
+"X":"Q",
+"Y":12,
+"Date":"2020-03-08T16:28:00",
+"Time":"2020-03-08T16:28:00",
+"MPH":"49.0",
+"MPH Plate Speed":"49.0",
+"MPH Release":"51.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"Q",
+"Y":12,
+"EI Row ID":"SM190031-831-3",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-831",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":4,
+"X":"D",
+"Y":21,
+"Date":"2020-03-08T16:28:28",
+"Time":"2020-03-08T16:28:28",
+"MPH":"49.0",
+"MPH Plate Speed":"49.0",
+"MPH Release":"51.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"D",
+"Y":21,
+"EI Row ID":"SM190031-831-4",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-831",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":5,
+"X":"Q",
+"Y":14,
+"Date":"2020-03-08T16:29:36",
+"Time":"2020-03-08T16:29:36",
+"MPH":"49.0",
+"MPH Plate Speed":"49.0",
+"MPH Release":"51.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"Q",
+"Y":14,
+"EI Row ID":"SM190031-831-5",
+"EI Row Count":"1"
+}
+]
+}

@@ -1,0 +1,59 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190031-834"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100213"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-834",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":1,
+"X":"R",
+"Y":13,
+"Date":"2020-03-08T18:00:17",
+"Time":"2020-03-08T18:00:17",
+"MPH":"75.0",
+"MPH Plate Speed":"75.0",
+"MPH Release":"77.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"R",
+"Y":13,
+"EI Row ID":"SM190031-834-1",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-834",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":2,
+"X":"A",
+"Y":16,
+"Date":"2020-03-08T18:01:02",
+"Time":"2020-03-08T18:01:02",
+"MPH":"76.0",
+"MPH Plate Speed":"76.0",
+"MPH Release":"78.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"A",
+"Y":16,
+"EI Row ID":"SM190031-834-2",
+"EI Row Count":"1"
+}
+]
+}

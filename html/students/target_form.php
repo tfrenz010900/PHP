@@ -213,50 +213,14 @@ else {
 
 	<input type="hidden" name="guid" value="<?php echo $_GET['target']; ?>" />
 
-  <div class="col-md-12 session_input">Time to show Plate Speed (Secs):
-
-    <p><input type="number" min="0" value="<?php echo $speed; ?>" max="20" name="play_speed"></p>
-
-  </div>
-
-
-
-
-
-  <div class="col-md-12 session_input">Time to show Release Speed (Secs):
-
-    <p><input type="number" min="0" value="<?php echo $speed; ?>" max="20" name="release_speed"></p>
-
-  </div>
-
-  <div class="col-md-12 session_input" style="display: none;">Time to Show Speed Display (Secs):
+  <div class="col-md-12 session_input">Time to Show Speed Display (Secs):
     <p><input type="number" min="0" value="<?php echo $speed; ?>" max="20" name="speed"></p>
   </div>
   <div class="col-md-12 session_input">Time to Show Impact Location (Secs):
     <p><input type="number" min="0" value="<?php echo $impact_speed; ?>" max="20" name="impact_location"></p>
   </div>
-  <!--div class="col-md-12 session_input">Vertical Target Adjustment +/- LED Rows (2.5” each):
+  <div class="col-md-12 session_input">Vertical Target Adjustment +/- LED Rows (2.5” each):
     <p><input type="number" min="-3" value="0" max="<?php echo $voffset; ?>" name="led_rows"></p>
-  </div-->
-  
-  <div class="col-md-12 session_input">Show Success Or Miss:
-
-    <p>
-
-        <label class="radio-inline">
-
-            <input type="radio"  value="yes<?php //echo $voffset; ?>" max="3" name="sucess_miss">Yes
-
-        </label>
-
-        <label class="radio-inline">
-
-          <input type="radio" checked value="no<?php //echo $voffset; ?>" max="3" name="sucess_miss">No
-
-        </label>
-
-    </p>
-
   </div>
   <div class="col-md-12 session_input" style="display:none;">Show the River on selected target Y/N:
     <p>
@@ -284,7 +248,7 @@ else {
   <div class="col-md-12 session_input">Pitching Distance in feet:
    <p>
         <label class="radio-inline">
-            <input type="radio" name="piching_distance" <?php if($PitchingDistanceFeet == '30') {echo 'checked="checked"'; }?> value="30" required>30
+            <input type="radio" name="piching_distance" <?php if($PitchingDistanceFeet == '30') {echo 'checked="checked"'; }?> value="30">30
         </label>
         <label class="radio-inline">
            <input type="radio" name="piching_distance" value="35" <?php if($PitchingDistanceFeet == '35') {echo 'checked="checked"'; }?>>35

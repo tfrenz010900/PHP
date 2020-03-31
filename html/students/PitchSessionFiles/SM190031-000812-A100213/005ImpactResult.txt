@@ -1,0 +1,4 @@
+Pixel: 60,6
+Ratio: 0.19,0.01
+Feet: 8,0
+RowCol: F,1

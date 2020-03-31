@@ -1,0 +1,46 @@
+Local Time: Tue, 04 Feb 2020 18:05:57 |** VER-2.08-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Wed, 05 Feb 2020 00:05:57
+Play Sound Coordinates: K, 10 to P, 16
+Local Time: 18:05:57 | Check Point 1 | 
+Local Time: 18:05:57 | Check Point 2 | 
+Local Time: 18:05:57 | Check Point 3 | 
+Local Time: 18:05:57 | Check Point 4 | 
+Local Time: 18:05:57 | Check Point 5 | 
+Local Time: 18:05:57 | Check Point 6 | 
+Local Time: 18:05:57 | Check Point 7 | 
+Local: 02/04/20 18:05:57 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local: 02/04/20 18:05:57 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py', '720'] | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local Time: 18:05:57 | Check Point 8 | 
+Local: 02/04/20 18:05:57 | 0001-Main                    - | ('Linux', 'SM190031', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local: 02/04/20 18:05:57 | 0001-Main                    - | () | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local: 02/04/20 18:05:57 | 0001-Main                    - | uname_result(system='Linux', node='SM190031', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local: 02/04/20 18:05:57 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM190031 | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local: 02/04/20 18:05:57 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190031] | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local Time: 18:05:57 | Check Point 9 | 
+Local Time: 18:05:57 | Check Point 10 | 
+Local: 02/04/20 18:05:57 |    0001-Main -                   - | Session Number PASSED TO PROGRAM: 720 | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local: 02/04/20 18:05:57 |    0001-Main -                   - | Session Number READ / id Returned: 720 / 618 | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local: 02/04/20 18:05:57 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [VER-2.08] | TZ:21600 |  GMT- 02/05/20 00:05:57
+Local: 02/04/20 18:05:58 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190031] | TZ:21600 |  GMT- 02/05/20 00:05:58
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | run STANDARD Session Mode with session number: [720] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo mkdir  on: [/var/www/html/students/PitchSessionFiles/SM190031-000720-A100096] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo mkdir command: [0] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chmod 777 on: [/var/www/html/students/PitchSessionFiles/SM190031-000720-A100096] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chmod 777 command: [0] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chown pi on: [/var/www/html/students/PitchSessionFiles/SM190031-000720-A100096] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chOWN command: [0] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chgrp pi on: [/var/www/html/students/PitchSessionFiles/SM190031-000720-A100096] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chGRP command: [0] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0030-RunStandardAndPracticeSession       - | Starting while loop for KeepProcessingPitches | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Dugout] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  StartTime: [2020-02-04 18:05:59.838311] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  ExpireTime: [2020-02-04 19:05:59.838311] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | BEFORE while loop--  CurrentTime: [2020-02-04 18:05:59.838332] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Loope Logic is: while (ExpireTime > CurrentTime) | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:05:59 | 0271-WaitForSpeedFile(TimeOutValueToAbort)   - | Value passeed in TimeOutValueToAbort is added to current time: [3600] | TZ:21600 |  GMT- 02/05/20 00:05:59
+Local: 02/04/20 18:08:03 | 2033-WaitForSpeedFile          - | stop.txt #2 file found, ending SmMain.py: [/var/www/html/students/stop.txt] | TZ:21600 |  GMT- 02/05/20 00:08:03
+Local: 02/04/20 18:08:03 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [4]  SpeedAddon = [3] | TZ:21600 |  GMT- 02/05/20 00:08:03
+Local: 02/04/20 18:08:03 | 0030-RunStandardAndPracticeSession       - | SpeedReturnValue = 4, stop.txt file found, ending program normally- reason: [CANCELLED] File found at: /var/www/html/students/stop.txt | TZ:21600 |  GMT- 02/05/20 00:08:03
+Local: 02/04/20 18:08:03 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [CANCELLED] | TZ:21600 |  GMT- 02/05/20 00:08:03
+Local: 02/04/20 18:08:03 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [CANCELLED] | TZ:21600 |  GMT- 02/05/20 00:08:03
+Local: 02/04/20 18:08:08 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190031] | TZ:21600 |  GMT- 02/05/20 00:08:08
+Local: 02/04/20 18:08:08 | 0001-Main -                   - | Session Number 720 Ended with Status: CANCELLED | TZ:21600 |  GMT- 02/05/20 00:08:08

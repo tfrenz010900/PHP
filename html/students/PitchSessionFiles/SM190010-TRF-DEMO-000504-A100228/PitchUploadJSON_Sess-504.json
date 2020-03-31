@@ -1,0 +1,38 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190010-TRF-DEMO-504"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100228"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190010-TRF-DEMO",
+"SessionNumber":"SM190010-TRF-DEMO-504",
+"AccountID":"A100228",
+"Distance":"60",
+"Target Type":"Early Development",
+"PitchNumber":1,
+"X":"S",
+"Y":12,
+"Date":"2019-08-28T14:57:47",
+"Time":"2019-08-28T14:57:47",
+"MPH":"30.0",
+"MPH Plate Speed":"30.0",
+"MPH Release":"36.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"S",
+"Y":12,
+"EI Row ID":"SM190010-TRF-DEMO-504-1",
+"EI Row Count":"1"
+}
+]
+}

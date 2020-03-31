@@ -1,0 +1,38 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190031-816"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100213"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-816",
+"AccountID":"A100213",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":1,
+"X":"V",
+"Y":10,
+"Date":"2020-03-01T13:12:40",
+"Time":"2020-03-01T13:12:40",
+"MPH":"44.0",
+"MPH Plate Speed":"44.0",
+"MPH Release":"46.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"V",
+"Y":10,
+"EI Row ID":"SM190031-816-1",
+"EI Row Count":"1"
+}
+]
+}

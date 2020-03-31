@@ -1,0 +1,39 @@
+Local Time: Tue, 06 Aug 2019 17:31:01 |** __SmMain_Ver6g-190121_htc.py-GLOBAL CODE **| MMainLogFile Initialized - NEW file. | TZ:21600 |  GMT- Tue, 06 Aug 2019 22:31:01
+Play Sound Coordinates: K, 10 to P, 16
+Local Time: 17:31:01 | Check Point 1 | 
+Local Time: 17:31:01 | Check Point 2 | 
+Local Time: 17:31:01 | Check Point 3 | 
+Local Time: 17:31:01 | Check Point 4 | 
+Local Time: 17:31:01 | Check Point 5 | 
+Local Time: 17:31:01 | Check Point 6 | 
+Local Time: 17:31:01 | Check Point 7 | 
+Local: 08/06/19 17:31:01 | 0001-Main                    - | START OF MAIN in home folder: /var/www/html/students | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0001-Main                    - | Python Script Runtime Arguments: SmMain.py - ['SmMain.py', '425'] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local Time: 17:31:01 | Check Point 8 | 
+Local: 08/06/19 17:31:01 | 0001-Main                    - | ('Linux', 'SM190010', '4.9.0-4-amd64', '#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', 'x86_64', '') | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0001-Main                    - | () | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0001-Main                    - | uname_result(system='Linux', node='SM190010', release='4.9.0-4-amd64', version='#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)', machine='x86_64', processor='') | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0001-Main -                   - | Machine ID (UnitSerialNumber) from local smconfig table: SM190010 | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local Time: 17:31:01 | Check Point 9 | 
+Local Time: 17:31:01 | Check Point 10 | 
+Local: 08/06/19 17:31:01 |    0001-Main -                   - | Session Number PASSED TO PROGRAM: 425 | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 |    0001-Main -                   - | Session Number READ / id Returned: 425 / 323 | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | run STANDARD Session Mode with session number: [425] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo mkdir  on: [/var/www/html/students/PitchSessionFiles/SM190010-000425-A100096] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo mkdir command: [0] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chmod 777 on: [/var/www/html/students/PitchSessionFiles/SM190010-000425-A100096] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chmod 777 command: [0] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chown pi on: [/var/www/html/students/PitchSessionFiles/SM190010-000425-A100096] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chOWN command: [0] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Try to run- sudo chgrp pi on: [/var/www/html/students/PitchSessionFiles/SM190010-000425-A100096] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Return value from OS on sudo chGRP command: [0] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0030-RunStandardAndPracticeSession       - | Starting while loop for KeepProcessingPitches | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:31:01 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [Impact] | TZ:21600 |  GMT- 08/06/19 22:31:01
+Local: 08/06/19 17:37:53 | 2033-WaitForSpeedFile          - | stop.txt #2 file found, ending SmMain.py: [/var/www/html/students/stop.txt] | TZ:21600 |  GMT- 08/06/19 22:37:53
+Local: 08/06/19 17:37:53 | 0030-RunStandardAndPracticeSession       - | Response from WaitForSpeedFile:  ReturnSpeedValue = [3]  SpeedAddon = [3] | TZ:21600 |  GMT- 08/06/19 22:37:53
+Local: 08/06/19 17:37:53 | 0030-RunStandardAndPracticeSession       - | stop.txt file found, ending program normally- reason: [CANCELLED]  | TZ:21600 |  GMT- 08/06/19 22:37:53
+Local: 08/06/19 17:37:53 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [CANCELLED] | TZ:21600 |  GMT- 08/06/19 22:37:53
+Local: 08/06/19 17:37:53 | 0009-MarqueeWord             - | MarqueeWord sub-routine TRUNCATED input word to 8 characters: [CANCELLED] | TZ:21600 |  GMT- 08/06/19 22:37:53
+Local: 08/06/19 17:37:58 | 0009-MarqueeWord             - | MarqueeWord sub-routine with value: [SM190010] | TZ:21600 |  GMT- 08/06/19 22:37:58
+Local: 08/06/19 17:37:58 | 0001-Main -                   - | Session Number 425 Ended with Status: CANCELLED | TZ:21600 |  GMT- 08/06/19 22:37:58

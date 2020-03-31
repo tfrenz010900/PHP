@@ -1,0 +1,4 @@
+Pixel: 184,400
+Ratio: 0.60,0.84
+Feet: 26,53
+RowCol: P,22

@@ -1,0 +1,38 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190010-TRF-DEMO-526"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100096"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190010-TRF-DEMO",
+"SessionNumber":"SM190010-TRF-DEMO-526",
+"AccountID":"A100096",
+"Distance":"43",
+"Target Type":"Game Mode",
+"PitchNumber":1,
+"X":"O",
+"Y":15,
+"Date":"2019-09-13T16:11:38",
+"Time":"2019-09-13T16:11:38",
+"MPH":"40.0",
+"MPH Plate Speed":"40.0",
+"MPH Release":"43.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"O",
+"Y":15,
+"EI Row ID":"SM190010-TRF-DEMO-526-1",
+"EI Row Count":"1"
+}
+]
+}

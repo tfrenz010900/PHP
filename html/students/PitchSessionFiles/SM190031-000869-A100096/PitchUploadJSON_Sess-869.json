@@ -1,0 +1,122 @@
+{
+"update":
+[
+{
+"type":"string",
+"key":"SessionNumber",
+"value":"SM190031-869"
+} , {
+"type":"string",
+"key":"AccountID",
+"value":"A100096"
+}
+],
+"rows":
+[
+{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-869",
+"AccountID":"A100096",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":1,
+"X":"R",
+"Y":21,
+"Date":"2020-03-17T17:55:34",
+"Time":"2020-03-17T17:55:34",
+"MPH":"58.0",
+"MPH Plate Speed":"58.0",
+"MPH Release":"61.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"R",
+"Y":21,
+"EI Row ID":"SM190031-869-1",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-869",
+"AccountID":"A100096",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":2,
+"X":"I",
+"Y":19,
+"Date":"2020-03-17T17:55:47",
+"Time":"2020-03-17T17:55:47",
+"MPH":"55.0",
+"MPH Plate Speed":"55.0",
+"MPH Release":"58.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"I",
+"Y":19,
+"EI Row ID":"SM190031-869-2",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-869",
+"AccountID":"A100096",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":3,
+"X":"O",
+"Y":23,
+"Date":"2020-03-17T17:56:04",
+"Time":"2020-03-17T17:56:04",
+"MPH":"58.0",
+"MPH Plate Speed":"58.0",
+"MPH Release":"61.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"O",
+"Y":23,
+"EI Row ID":"SM190031-869-3",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-869",
+"AccountID":"A100096",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":4,
+"X":"D",
+"Y":8,
+"Date":"2020-03-17T17:56:15",
+"Time":"2020-03-17T17:56:15",
+"MPH":"57.0",
+"MPH Plate Speed":"57.0",
+"MPH Release":"60.0",
+"Call":"MISS",
+"Call":"MISS",
+"X":"D",
+"Y":8,
+"EI Row ID":"SM190031-869-4",
+"EI Row Count":"1"
+}
+,{
+"Camera ID":"SM190031",
+"SessionNumber":"SM190031-869",
+"AccountID":"A100096",
+"Distance":"60",
+"Target Type":"Game Mode",
+"PitchNumber":5,
+"X":"O",
+"Y":16,
+"Date":"2020-03-17T17:57:26",
+"Time":"2020-03-17T17:57:26",
+"MPH":"59.0",
+"MPH Plate Speed":"59.0",
+"MPH Release":"62.0",
+"Call":"SUCCESS",
+"Call":"SUCCESS",
+"X":"O",
+"Y":16,
+"EI Row ID":"SM190031-869-5",
+"EI Row Count":"1"
+}
+]
+}
